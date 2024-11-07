@@ -1,8 +1,38 @@
 ---
 title: "Week 1"
 subtitle: Course Goals and Setup
+filters: 
+  - webr
+webr:
+  packages:
+    - ggplot2
+    - dplyr
+    - scales
+    - gapminder
+  cell-options:
+    editor-font-scale: 0.8
+    fig-width: 7
+    fig-height: 4.3
+    out-width: "100%"
 ---
 
+```{webr-r}
+gapminder_filtered <- gapminder |>
+  filter(year == 2007)
+
+ggplot(data = gapminder_filtered,
+       mapping = aes(x = gdpPercap, y = lifeExp, 
+                     size = pop, color = continent)) +
+  geom_point() + 
+  scale_x_log10(labels = scales::dollar_format(accuracy = 1)) +
+  scale_size_continuous(labels = scales::label_comma()) +
+  scale_color_viridis_d(option = "plasma") +
+  labs(x = "GDP per capita", y = "Life expectancy",
+       title = "Health and wealth are strongly related",
+       subtitle = "142 countries; 2007 only", caption = "Source: The Gapminder Project",
+       color = "Continent", size = "Population") +
+  theme_bw()
+```
 
 ## Slides
 
