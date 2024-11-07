@@ -37,7 +37,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-2486e1f0a3ee9ee1fc393803a1361cdb.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-1a5005ec9e7d45398f48c54a27ac565e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-edd794c53699fd84178ad776ea73b894.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -95,12 +95,19 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link active" href="./schedule.html" aria-current="page"> 
 <span class="menu-text">Schedule</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./lectures/lectures.html"> 
+<span class="menu-text">Lectures</span></a>
+  </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
 </div>
       </div> <!-- /container-fluid -->
     </nav>
+  <div id="quarto-announcement" data-announcement-id="da0ec1f14d42720f72fca5eb4217d151" class="alert alert-danger hidden"><i class="bi bi-calendar-check quarto-announcement-icon"></i><div class="quarto-announcement-content">
+<p><strong>Reminder!</strong> All students should fill out the (<a href="https://forms.gle/cup9GTRT8BL5UhHq8">Course Introduction Survey)</a> before 1/6/24)</p>
+</div><i class="bi bi-x-lg quarto-announcement-action"></i></div>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
@@ -111,19 +118,16 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#class-schedule" id="toc-class-schedule" class="nav-link active" data-scroll-target="#class-schedule">Class Schedule</a>
-  <ul class="collapse">
-  <li><a href="#week-01-0106-course-goals-and-setup" id="toc-week-01-0106-course-goals-and-setup" class="nav-link" data-scroll-target="#week-01-0106-course-goals-and-setup">Week 01, 01/06: Course Goals and Setup</a></li>
+  <li><a href="#week-01-0106-course-goals-and-setup" id="toc-week-01-0106-course-goals-and-setup" class="nav-link active" data-scroll-target="#week-01-0106-course-goals-and-setup">Week 01, 01/06: Course Goals and Setup</a></li>
   <li><a href="#week-02-0113-file-organization-and-workflow" id="toc-week-02-0113-file-organization-and-workflow" class="nav-link" data-scroll-target="#week-02-0113-file-organization-and-workflow">Week 02, 01/13: File Organization and Workflow</a></li>
   <li><a href="#week-03-0120-no-class---mlk-day" id="toc-week-03-0120-no-class---mlk-day" class="nav-link" data-scroll-target="#week-03-0120-no-class---mlk-day">Week 03, 01/20: NO CLASS - MLK DAY</a></li>
   <li><a href="#week-04-0127-data-transformations" id="toc-week-04-0127-data-transformations" class="nav-link" data-scroll-target="#week-04-0127-data-transformations">Week 04, 01/27: Data Transformations</a></li>
   <li><a href="#week-05-0203-data-structure" id="toc-week-05-0203-data-structure" class="nav-link" data-scroll-target="#week-05-0203-data-structure">Week 05, 02/03: Data Structure</a></li>
   <li><a href="#week-06-0210-automation-functions-and-iteration" id="toc-week-06-0210-automation-functions-and-iteration" class="nav-link" data-scroll-target="#week-06-0210-automation-functions-and-iteration">Week 06, 02/10: Automation: Functions and Iteration</a></li>
-  <li><a href="#week-07-0217-exploratory-data-analysis" id="toc-week-07-0217-exploratory-data-analysis" class="nav-link" data-scroll-target="#week-07-0217-exploratory-data-analysis">Week 07, 02/17: Exploratory Data Analysis</a></li>
-  <li><a href="#week-08-0224-no-class-presidents-day" id="toc-week-08-0224-no-class-presidents-day" class="nav-link" data-scroll-target="#week-08-0224-no-class-presidents-day">Week 08, 02/24: NO CLASS: PRESIDENTS’ DAY</a></li>
+  <li><a href="#week-07-0217-no-class-presidents-day" id="toc-week-07-0217-no-class-presidents-day" class="nav-link" data-scroll-target="#week-07-0217-no-class-presidents-day">Week 07, 02/17: NO CLASS: PRESIDENTS’ DAY</a></li>
+  <li><a href="#week-08-0224-exploratory-data-analysis" id="toc-week-08-0224-exploratory-data-analysis" class="nav-link" data-scroll-target="#week-08-0224-exploratory-data-analysis">Week 08, 02/24: Exploratory Data Analysis</a></li>
   <li><a href="#week-09-0303-data-sharing-and-reproducibility" id="toc-week-09-0303-data-sharing-and-reproducibility" class="nav-link" data-scroll-target="#week-09-0303-data-sharing-and-reproducibility">Week 09, 03/03: Data Sharing and Reproducibility</a></li>
   <li><a href="#week-10-0310-communication" id="toc-week-10-0310-communication" class="nav-link" data-scroll-target="#week-10-0310-communication">Week 10, 03/10: Communication</a></li>
-  </ul></li>
   </ul>
 </nav>
     </div>
@@ -149,9 +153,7 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="class-schedule" class="level1">
-<h1>Class Schedule</h1>
-<p>Readings should be completed prior to each class. Zoom class meetings (Weeks 1 and 2) can be joined via this <a href="https://ucr.zoom.us/j/92641948157">link</a>.</p>
+<p>Readings should be completed prior to each class.</p>
 <section id="week-01-0106-course-goals-and-setup" class="level2">
 <h2 class="anchored" data-anchor-id="week-01-0106-course-goals-and-setup">Week 01, 01/06: Course Goals and Setup</h2>
 <ul>
@@ -231,8 +233,11 @@ ul.task-list li input[type="checkbox"] {
 <li><a href="https://github.com/psych-259-data-science-2022/259-automation">Automation</a></li>
 </ul>
 </section>
-<section id="week-07-0217-exploratory-data-analysis" class="level2">
-<h2 class="anchored" data-anchor-id="week-07-0217-exploratory-data-analysis">Week 07, 02/17: Exploratory Data Analysis</h2>
+<section id="week-07-0217-no-class-presidents-day" class="level2">
+<h2 class="anchored" data-anchor-id="week-07-0217-no-class-presidents-day">Week 07, 02/17: NO CLASS: PRESIDENTS’ DAY</h2>
+</section>
+<section id="week-08-0224-exploratory-data-analysis" class="level2">
+<h2 class="anchored" data-anchor-id="week-08-0224-exploratory-data-analysis">Week 08, 02/24: Exploratory Data Analysis</h2>
 <ul>
 <li><strong>WORKFLOW PRESENTATIONS</strong></li>
 <li>Data validation</li>
@@ -245,9 +250,6 @@ ul.task-list li input[type="checkbox"] {
 <li><a href="https://github.com/psych-259-data-science-2022/259-exploratory-data-analysis">Visualization and EDA</a></li>
 <li><a href="https://github.com/psych-259-data-science-2022/259-integrating-skills-hw">Integrating skills homework</a></li>
 </ul>
-</section>
-<section id="week-08-0224-no-class-presidents-day" class="level2">
-<h2 class="anchored" data-anchor-id="week-08-0224-no-class-presidents-day">Week 08, 02/24: NO CLASS: PRESIDENTS’ DAY</h2>
 </section>
 <section id="week-09-0303-data-sharing-and-reproducibility" class="level2">
 <h2 class="anchored" data-anchor-id="week-09-0303-data-sharing-and-reproducibility">Week 09, 03/03: Data Sharing and Reproducibility</h2>
@@ -280,7 +282,6 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->

@@ -5,16 +5,37 @@ website:
   title: "PSYC 259: Data Science"
   navbar:
     pinned: true
-    background: "#E16462"
     right:
       - syllabus.qmd
       - schedule.qmd
+      - lectures/lectures.qmd
+  announcement:
+    icon: calendar-check
+    dismissable: true
+    content: "**Reminder!** All students should fill out the ([Course Introduction Survey)](https://forms.gle/cup9GTRT8BL5UhHq8) before 1/6/24)"
+    type: danger
+    position: below-navbar
+    
+    sidebar:
+    - title: "Classes and readings"
+      style: "docked"
+      search: false
+      background: light
+      contents:
+        - section: "Overview"
+          contents:
+            - lectures/lectures.qmd
+        - section: "Foundations"
+          contents:
+            - text: "1: Truth, beauty, and data + the tidyverse"
+              file: lectures/week1.qmd
 
 format:
   html:
     theme: flatly
     css: styles.css
     toc: true
+
 
 
 

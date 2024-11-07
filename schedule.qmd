@@ -91,7 +91,9 @@ Readings should be completed prior to each class.
 
 - [Automation](https://github.com/psych-259-data-science-2022/259-automation)
 
-##  `r advdate(wed, 7)`: Exploratory Data Analysis
+##  `r advdate(wed, 7)`: NO CLASS: PRESIDENTS' DAY
+
+##  `r advdate(wed, 8)`: Exploratory Data Analysis
 - **WORKFLOW PRESENTATIONS**
 - Data validation
 - Automating visualizations 
@@ -103,8 +105,6 @@ Readings should be completed prior to each class.
 
 - [Visualization and EDA](https://github.com/psych-259-data-science-2022/259-exploratory-data-analysis)
 - [Integrating skills homework](https://github.com/psych-259-data-science-2022/259-integrating-skills-hw)
-
-##  `r advdate(wed, 8)`: NO CLASS: PRESIDENTS' DAY
 
 ##  `r advdate(wed, 9)`: Data Sharing and Reproducibility
 - Reuse-minded project management

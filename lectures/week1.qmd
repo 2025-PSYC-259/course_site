@@ -1,0 +1,24 @@
+---
+title: "Week 1"
+subtitle: Course Goals and Setup
+---
+
+
+## Slides
+
+The slides for this week's lesson are available online as an HTML file. Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the slides below and navigate through them with your left and right arrow keys.
+
+```{r show-slide-tabs, echo=FALSE, results="asis"}
+#slide_buttons("/slides/01-slides")
+
+xaringanExtra::embed_xaringan(
+  "https://psych-259-data-science-2022.github.io/259-langbasics-importing/#1",
+  ratio = "16:9",
+  border = "none",
+  margin = "0 auto"
+)
+```
+
+:::{.callout-tip}
+**Fun fact**: If you type <kbd>?</kbd> (or <kbd>shift</kbd> + <kbd>/</kbd>) while going through the slides, you can see a list of special slide-specific commands.
+:::
