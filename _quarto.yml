@@ -16,7 +16,7 @@ website:
     type: danger
     position: below-navbar
     
-    sidebar:
+  sidebar:
     - title: "Classes and readings"
       style: "docked"
       search: false
@@ -27,7 +27,7 @@ website:
             - lectures/lectures.qmd
         - section: "Foundations"
           contents:
-            - text: "1: Truth, beauty, and data + the tidyverse"
+            - text: "1: Course Goals and Setup"
               file: lectures/week1.qmd
 
 format:
