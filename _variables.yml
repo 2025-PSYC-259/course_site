@@ -1,0 +1,33 @@
+author: John Franchak
+
+instructor:
+  name: Prof. John Franchak
+  name_no_title: John Franchak
+  email: franchak@ucr.edu
+  url: "https://profiles.ucr.edu/app/home/profile/franchak"
+  bluesky: "https://bsky.app/profile/johnfranchak.bsky.social"
+  github: johnfranchak
+  office: "Psychology 2125"
+  contact_policy: >-
+    E-Mail and Google Chat are the best ways to get in touch with me. I respond to most messages within 24 hours.
+  appointment_url: "https://calendar.app.google/kbf72J47oWpxbadf7"
+
+course:
+  number: "PSYC 259"
+  semester: "Winter 2025"
+  days: "Mondays"
+  time: "9:00 am"
+  location: "Anywhere"
+  dates: "January 6 to March 10"
+  github: "https://github.com/2025-PSYC-259"
+  url: "https://github.com/2025-PSYC-259"
+  copyright_year: "2025"
+  slack: 
+
+university:
+  name: University of California, Riverside
+  url: "https://www.ucr.edu"
+
+school:
+  name: Department of Psychology
+  url: "https://psychology.ucr.edu/"

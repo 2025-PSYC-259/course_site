@@ -1,0 +1,19 @@
+project:
+  type: website
+
+website:
+  title: "PSYC 259: Data Science"
+  navbar:
+    pinned: true
+    background: "#E16462"
+    right:
+      - syllabus.qmd
+
+format:
+  html:
+    theme: flatly
+    css: styles.css
+    toc: true
+
+
+

@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "PSYC 259: Data Science",
+    "section": "",
+    "text": "This is a Quarto website. \nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "syllabus.html",
+    "href": "syllabus.html",
+    "title": "Syllabus",
+    "section": "",
+    "text": "Prof. John Franchak\n Psychology 2125\n franchak@ucr.edu\n{{&lt; iconify ph butterfly-bold size=1.2em title='Bluesky' &gt;}} Bluesky\n\n\n\n\n\n Mondays\n January 6 to March 10\n 9:00 am\n Anywhere\n\n\n\n\n\n Schedule an appointment\n Slack"
+  },
+  {
+    "objectID": "syllabus.html#course-objectives",
+    "href": "syllabus.html#course-objectives",
+    "title": "Syllabus",
+    "section": "Course objectives",
+    "text": "Course objectives"
+  }
+]
