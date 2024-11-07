@@ -16,13 +16,17 @@ course:
   number: "PSYC 259"
   semester: "Winter 2025"
   days: "Mondays"
-  time: "9:00 am"
-  location: "Anywhere"
+  time: "9:00am-11:50am"
+  location: "Psychology 1205"
   dates: "January 6 to March 10"
   github: "https://github.com/2025-PSYC-259"
   url: "https://github.com/2025-PSYC-259"
   copyright_year: "2025"
-  slack: 
+
+TA:
+  email: tbd@ucr.edu
+  officehour: SOMEDAY TIME
+  office: SOMWHERE
 
 university:
   name: University of California, Riverside

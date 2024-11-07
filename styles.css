@@ -1,7 +1,7 @@
 /* css styles */
 .course-details ul {
   list-style-type: none;
-  margin-left: var(--fa-li-margin, 1.5em);  // Was originally 2.5
+  margin-left: var(--fa-li-margin, -0.5em);  // Was originally 2.5
   padding-left: 0;
 }
 .course-details ul > li {
