@@ -1,0 +1,135 @@
+---
+title: "Schedule"
+---
+
+```{r dates_bib, include=FALSE}
+knitr::opts_chunk$set(cache=FALSE, dev='pdf')
+wed <- as.Date("2025-01-06")
+
+advdate <- function(obj, adv) {
+ tmon <- obj + 7*(adv-1)
+ tfri <- obj + 4 + 7*(adv-1)
+ tmon <- format(tmon, format="%m/%d")
+ tfri <- format(tfri, format="%m/%d")
+ zadv <- sprintf("%02d", adv)
+ #tmp <- paste("Week ",zadv,sep='',", ", tmon," - ",tfri)
+  tmp <- paste("Week ",zadv,sep='',", ", tmon)
+ return(tmp)
+}
+```
+
+
+Readings should be completed prior to each class. 
+
+## `r advdate(wed, 1)`: Course Goals and Setup
+- Goals of the class
+- Logistics
+- Workflow examples
+- Software setup
+- Introduction to Github
+
+*R4DS:* [Introduction](https://r4ds.had.co.nz/introduction.html) and [Workflow Basics](https://r4ds.had.co.nz/workflow-basics.html)
+
+*GitHub Project Links:*
+
+- [Instructions to set up R, RStudio, git, and Github](https://github.com/psych-259-data-science-2022/259-syllabus-readings-slides/blob/master/software_setup.md)
+
+## `r advdate(wed, 2)`: File Organization and Workflow
+- File organization 
+- Version control
+- *SKILLS:* R language basics (variables, assignment, comments, calling functions), file import/export
+
+*R4DS:* [Scripts](https://r4ds.had.co.nz/workflow-scripts.html), [Projects](https://r4ds.had.co.nz/workflow-projects.html),  [Tibbles](https://r4ds.had.co.nz/tibbles.html), and [Data import](https://r4ds.had.co.nz/data-import.html)
+
+*GitHub Project Links:*
+
+- [Flipbook tutorial](https://psych-259-data-science-2022.github.io/259-langbasics-importing/#1)
+- [Github project link](https://github.com/psych-259-data-science-2022/259-langbasics-importing)
+- [Github homework link](https://github.com/psych-259-data-science-2022/259-langbasics-importing-hw)
+
+##  `r advdate(wed, 3)`: NO CLASS - MLK DAY
+
+##  `r advdate(wed, 4)`: Data Transformations
+- Basic data types (numbers, strings)
+- Variable naming
+- *SKILLS:* dplyr data wrangling, logical statements, strings
+
+*R4DS:* [Data transformation](https://r4ds.had.co.nz/transform.html) and [Strings](https://r4ds.had.co.nz/strings.html)
+
+*OTHER READINGS:* Mistakes article (Kovacs et al., 2021)
+
+*GitHub Project Links:*
+
+- [Flipbook tutorial](https://psych-259-data-science-2022.github.io/259-data-transformations/#1)
+- [Github project link](https://github.com/psych-259-data-science-2022/259-data-transformations)
+- [Github homework link](https://github.com/psych-259-data-science-2022/259-data-transformations-hw)
+
+##  `r advdate(wed, 5)`: Data Structure
+- Tidy data (observations/cases)
+- More advanced data types (factors, dates, vectors, lists)
+- *SKILLS:* More data wrangling, factors, dates
+
+*R4DS:* [Tidy data](https://r4ds.had.co.nz/tidy-data.html), [Factors](https://r4ds.had.co.nz/factors.html), and [Dates](https://r4ds.had.co.nz/dates-and-times.html)
+
+*GitHub Project Links:*
+
+- [Flipbook tutorial](https://psych-259-data-science-2022.github.io/259-data-structure/#1)
+- [Github project link](https://github.com/psych-259-data-science-2022/259-data-structure)
+- [Github homework link](https://github.com/psych-259-data-science-2022/259-data-structure-hw)
+
+##  `r advdate(wed, 6)`: Automation: Functions and Iteration
+- Finding new packages/APIs vs. writing your own functions
+- Automating your analyses
+- Writing more efficient code
+- *SKILLS:* Writing custom functions, iteration (map, for loops)
+
+*R4DS:* [Functions](https://r4ds.had.co.nz/functions.html), [Vectors](https://r4ds.had.co.nz/vectors.html) and [Iteration](https://r4ds.had.co.nz/iteration.html)
+
+*OTHER READINGS:* Minimizing mistakes article (Rouder et al., 2019)
+
+*GitHub Project Links:*
+
+- [Automation](https://github.com/psych-259-data-science-2022/259-automation)
+
+##  `r advdate(wed, 7)`: Exploratory Data Analysis
+- **WORKFLOW PRESENTATIONS**
+- Data validation
+- Automating visualizations 
+- *SKILLS:* Basic visualizations with ggplot2
+
+*R4DS:* [Data visualization](https://r4ds.had.co.nz/data-visualisation.html) and [Exporatory data analysis](https://r4ds.had.co.nz/exploratory-data-analysis.html)
+
+*GitHub Project Links:*
+
+- [Visualization and EDA](https://github.com/psych-259-data-science-2022/259-exploratory-data-analysis)
+- [Integrating skills homework](https://github.com/psych-259-data-science-2022/259-integrating-skills-hw)
+
+##  `r advdate(wed, 8)`: NO CLASS: PRESIDENTS' DAY
+
+##  `r advdate(wed, 9)`: Data Sharing and Reproducibility
+- Reuse-minded project management
+- Reproducible reports
+- Preserving programming environment and analyses
+- *SKILLS:* R Markdown, package control
+
+*R4DS:* [R Markdown](https://r4ds.had.co.nz/r-markdown.html)
+
+*OTHER READINGS:* Transparency in psychological science (Klein et al., 2018)
+
+*GitHub Project Links:*
+
+- [RMarkdown](https://github.com/psych-259-data-science-2022/259-rmarkdown)
+- [RMarkdown homework](https://github.com/psych-259-data-science-2022/259-rmarkdown-hw)
+
+##  `r advdate(wed, 10)`: Communication
+- Communicating through graphical styles
+- Interactive plots for data exploration
+- *SKILLS:* ggplot and extensions
+
+*R4DS:* [Graphics for communication](https://r4ds.had.co.nz/graphics-for-communication.html)
+
+*OTHER READING:* [Chartjunk](https://www.edwardtufte.com/bboard/q-and-a-fetch-msg?msg_id=00040Z) from (Tufte 1990; 2001; 2006)
+
+*GitHub Project Links:*
+
+- [Visualization](https://github.com/psych-259-data-science-2022/259-visualization-communication)

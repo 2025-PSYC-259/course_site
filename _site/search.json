@@ -47,5 +47,68 @@
     "title": "Syllabus",
     "section": "Attendance",
     "text": "Attendance\nIn the event of absences due to illness or family obligations, please contact the instructor immediately so that we can make arrangements. Everyone is in a different situation, so I will always work with you to figure out a way to handle disruptions to learning. I want everyone in this class to succeed!"
+  },
+  {
+    "objectID": "schedule.html",
+    "href": "schedule.html",
+    "title": "Schedule",
+    "section": "",
+    "text": "Readings should be completed prior to each class. Zoom class meetings (Weeks 1 and 2) can be joined via this link.\n\n\n\nGoals of the class\nLogistics\nWorkflow examples\nSoftware setup\nIntroduction to Github\n\nR4DS: Introduction and Workflow Basics\nGitHub Project Links:\n\nInstructions to set up R, RStudio, git, and Github\n\n\n\n\n\nFile organization\nVersion control\nSKILLS: R language basics (variables, assignment, comments, calling functions), file import/export\n\nR4DS: Scripts, Projects, Tibbles, and Data import\nGitHub Project Links:\n\nFlipbook tutorial\nGithub project link\nGithub homework link\n\n\n\n\n\n\n\n\nBasic data types (numbers, strings)\nVariable naming\nSKILLS: dplyr data wrangling, logical statements, strings\n\nR4DS: Data transformation and Strings\nOTHER READINGS: Mistakes article (Kovacs et al., 2021)\nGitHub Project Links:\n\nFlipbook tutorial\nGithub project link\nGithub homework link\n\n\n\n\n\nTidy data (observations/cases)\nMore advanced data types (factors, dates, vectors, lists)\nSKILLS: More data wrangling, factors, dates\n\nR4DS: Tidy data, Factors, and Dates\nGitHub Project Links:\n\nFlipbook tutorial\nGithub project link\nGithub homework link\n\n\n\n\n\nFinding new packages/APIs vs. writing your own functions\nAutomating your analyses\nWriting more efficient code\nSKILLS: Writing custom functions, iteration (map, for loops)\n\nR4DS: Functions, Vectors and Iteration\nOTHER READINGS: Minimizing mistakes article (Rouder et al., 2019)\nGitHub Project Links:\n\nAutomation\n\n\n\n\n\nWORKFLOW PRESENTATIONS\nData validation\nAutomating visualizations\nSKILLS: Basic visualizations with ggplot2\n\nR4DS: Data visualization and Exporatory data analysis\nGitHub Project Links:\n\nVisualization and EDA\nIntegrating skills homework\n\n\n\n\n\n\n\n\nReuse-minded project management\nReproducible reports\nPreserving programming environment and analyses\nSKILLS: R Markdown, package control\n\nR4DS: R Markdown\nOTHER READINGS: Transparency in psychological science (Klein et al., 2018)\nGitHub Project Links:\n\nRMarkdown\nRMarkdown homework\n\n\n\n\n\nCommunicating through graphical styles\nInteractive plots for data exploration\nSKILLS: ggplot and extensions\n\nR4DS: Graphics for communication\nOTHER READING: Chartjunk from (Tufte 1990; 2001; 2006)\nGitHub Project Links:\n\nVisualization"
+  },
+  {
+    "objectID": "schedule.html#week-01-0106-course-goals-and-setup",
+    "href": "schedule.html#week-01-0106-course-goals-and-setup",
+    "title": "Schedule",
+    "section": "",
+    "text": "Goals of the class\nLogistics\nWorkflow examples\nSoftware setup\nIntroduction to Github\n\nR4DS: Introduction and Workflow Basics\nGitHub Project Links:\n\nInstructions to set up R, RStudio, git, and Github"
+  },
+  {
+    "objectID": "schedule.html#week-02-0113-file-organization-and-workflow",
+    "href": "schedule.html#week-02-0113-file-organization-and-workflow",
+    "title": "Schedule",
+    "section": "",
+    "text": "File organization\nVersion control\nSKILLS: R language basics (variables, assignment, comments, calling functions), file import/export\n\nR4DS: Scripts, Projects, Tibbles, and Data import\nGitHub Project Links:\n\nFlipbook tutorial\nGithub project link\nGithub homework link"
+  },
+  {
+    "objectID": "schedule.html#week-04-0127-data-transformations",
+    "href": "schedule.html#week-04-0127-data-transformations",
+    "title": "Schedule",
+    "section": "",
+    "text": "Basic data types (numbers, strings)\nVariable naming\nSKILLS: dplyr data wrangling, logical statements, strings\n\nR4DS: Data transformation and Strings\nOTHER READINGS: Mistakes article (Kovacs et al., 2021)\nGitHub Project Links:\n\nFlipbook tutorial\nGithub project link\nGithub homework link"
+  },
+  {
+    "objectID": "schedule.html#week-05-0203-data-structure",
+    "href": "schedule.html#week-05-0203-data-structure",
+    "title": "Schedule",
+    "section": "",
+    "text": "Tidy data (observations/cases)\nMore advanced data types (factors, dates, vectors, lists)\nSKILLS: More data wrangling, factors, dates\n\nR4DS: Tidy data, Factors, and Dates\nGitHub Project Links:\n\nFlipbook tutorial\nGithub project link\nGithub homework link"
+  },
+  {
+    "objectID": "schedule.html#week-06-0210-automation-functions-and-iteration",
+    "href": "schedule.html#week-06-0210-automation-functions-and-iteration",
+    "title": "Schedule",
+    "section": "",
+    "text": "Finding new packages/APIs vs. writing your own functions\nAutomating your analyses\nWriting more efficient code\nSKILLS: Writing custom functions, iteration (map, for loops)\n\nR4DS: Functions, Vectors and Iteration\nOTHER READINGS: Minimizing mistakes article (Rouder et al., 2019)\nGitHub Project Links:\n\nAutomation"
+  },
+  {
+    "objectID": "schedule.html#week-07-0217-exploratory-data-analysis",
+    "href": "schedule.html#week-07-0217-exploratory-data-analysis",
+    "title": "Schedule",
+    "section": "",
+    "text": "WORKFLOW PRESENTATIONS\nData validation\nAutomating visualizations\nSKILLS: Basic visualizations with ggplot2\n\nR4DS: Data visualization and Exporatory data analysis\nGitHub Project Links:\n\nVisualization and EDA\nIntegrating skills homework"
+  },
+  {
+    "objectID": "schedule.html#week-09-0303-data-sharing-and-reproducibility",
+    "href": "schedule.html#week-09-0303-data-sharing-and-reproducibility",
+    "title": "Schedule",
+    "section": "",
+    "text": "Reuse-minded project management\nReproducible reports\nPreserving programming environment and analyses\nSKILLS: R Markdown, package control\n\nR4DS: R Markdown\nOTHER READINGS: Transparency in psychological science (Klein et al., 2018)\nGitHub Project Links:\n\nRMarkdown\nRMarkdown homework"
+  },
+  {
+    "objectID": "schedule.html#week-10-0310-communication",
+    "href": "schedule.html#week-10-0310-communication",
+    "title": "Schedule",
+    "section": "",
+    "text": "Communicating through graphical styles\nInteractive plots for data exploration\nSKILLS: ggplot and extensions\n\nR4DS: Graphics for communication\nOTHER READING: Chartjunk from (Tufte 1990; 2001; 2006)\nGitHub Project Links:\n\nVisualization"
   }
 ]
