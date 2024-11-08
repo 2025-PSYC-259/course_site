@@ -1,0 +1,133 @@
+[
+  {
+    "objectID": "schedule.html",
+    "href": "schedule.html",
+    "title": "Schedule",
+    "section": "",
+    "text": "Readings should be completed prior to each class."
+  },
+  {
+    "objectID": "schedule.html#week-01-0106-course-goals-and-setup",
+    "href": "schedule.html#week-01-0106-course-goals-and-setup",
+    "title": "Schedule",
+    "section": "Week 01, 01/06: Course Goals and Setup",
+    "text": "Week 01, 01/06: Course Goals and Setup\n\nGoals of the class\nLogistics\nWorkflow examples\nSoftware setup\nIntroduction to Github\n\nR4DS: Introduction and Workflow Basics\nGitHub Project Links:\n\nInstructions to set up R, RStudio, git, and Github"
+  },
+  {
+    "objectID": "schedule.html#week-02-0113-file-organization-and-workflow",
+    "href": "schedule.html#week-02-0113-file-organization-and-workflow",
+    "title": "Schedule",
+    "section": "Week 02, 01/13: File Organization and Workflow",
+    "text": "Week 02, 01/13: File Organization and Workflow\n\nFile organization\nVersion control\nSKILLS: R language basics (variables, assignment, comments, calling functions), file import/export\n\nR4DS: Scripts, Projects, Tibbles, and Data import\nGitHub Project Links:\n\nFlipbook tutorial\nGithub project link\nGithub homework link"
+  },
+  {
+    "objectID": "schedule.html#week-03-0120-no-class---mlk-day",
+    "href": "schedule.html#week-03-0120-no-class---mlk-day",
+    "title": "Schedule",
+    "section": "Week 03, 01/20: NO CLASS - MLK DAY",
+    "text": "Week 03, 01/20: NO CLASS - MLK DAY"
+  },
+  {
+    "objectID": "schedule.html#week-04-0127-data-transformations",
+    "href": "schedule.html#week-04-0127-data-transformations",
+    "title": "Schedule",
+    "section": "Week 04, 01/27: Data Transformations",
+    "text": "Week 04, 01/27: Data Transformations\n\nBasic data types (numbers, strings)\nVariable naming\nSKILLS: dplyr data wrangling, logical statements, strings\n\nR4DS: Data transformation and Strings\nOTHER READINGS: Mistakes article (Kovacs et al., 2021)\nGitHub Project Links:\n\nFlipbook tutorial\nGithub project link\nGithub homework link"
+  },
+  {
+    "objectID": "schedule.html#week-05-0203-data-structure",
+    "href": "schedule.html#week-05-0203-data-structure",
+    "title": "Schedule",
+    "section": "Week 05, 02/03: Data Structure",
+    "text": "Week 05, 02/03: Data Structure\n\nTidy data (observations/cases)\nMore advanced data types (factors, dates, vectors, lists)\nSKILLS: More data wrangling, factors, dates\n\nR4DS: Tidy data, Factors, and Dates\nGitHub Project Links:\n\nFlipbook tutorial\nGithub project link\nGithub homework link"
+  },
+  {
+    "objectID": "schedule.html#week-06-0210-automation-functions-and-iteration",
+    "href": "schedule.html#week-06-0210-automation-functions-and-iteration",
+    "title": "Schedule",
+    "section": "Week 06, 02/10: Automation: Functions and Iteration",
+    "text": "Week 06, 02/10: Automation: Functions and Iteration\n\nFinding new packages/APIs vs. writing your own functions\nAutomating your analyses\nWriting more efficient code\nSKILLS: Writing custom functions, iteration (map, for loops)\n\nR4DS: Functions, Vectors and Iteration\nOTHER READINGS: Minimizing mistakes article (Rouder et al., 2019)\nGitHub Project Links:\n\nAutomation"
+  },
+  {
+    "objectID": "schedule.html#week-07-0217-no-class-presidents-day",
+    "href": "schedule.html#week-07-0217-no-class-presidents-day",
+    "title": "Schedule",
+    "section": "Week 07, 02/17: NO CLASS: PRESIDENTS’ DAY",
+    "text": "Week 07, 02/17: NO CLASS: PRESIDENTS’ DAY"
+  },
+  {
+    "objectID": "schedule.html#week-08-0224-exploratory-data-analysis",
+    "href": "schedule.html#week-08-0224-exploratory-data-analysis",
+    "title": "Schedule",
+    "section": "Week 08, 02/24: Exploratory Data Analysis",
+    "text": "Week 08, 02/24: Exploratory Data Analysis\n\nWORKFLOW PRESENTATIONS\nData validation\nAutomating visualizations\nSKILLS: Basic visualizations with ggplot2\n\nR4DS: Data visualization and Exporatory data analysis\nGitHub Project Links:\n\nVisualization and EDA\nIntegrating skills homework"
+  },
+  {
+    "objectID": "schedule.html#week-09-0303-data-sharing-and-reproducibility",
+    "href": "schedule.html#week-09-0303-data-sharing-and-reproducibility",
+    "title": "Schedule",
+    "section": "Week 09, 03/03: Data Sharing and Reproducibility",
+    "text": "Week 09, 03/03: Data Sharing and Reproducibility\n\nReuse-minded project management\nReproducible reports\nPreserving programming environment and analyses\nSKILLS: R Markdown, package control\n\nR4DS: R Markdown\nOTHER READINGS: Transparency in psychological science (Klein et al., 2018)\nGitHub Project Links:\n\nRMarkdown\nRMarkdown homework"
+  },
+  {
+    "objectID": "schedule.html#week-10-0310-communication",
+    "href": "schedule.html#week-10-0310-communication",
+    "title": "Schedule",
+    "section": "Week 10, 03/10: Communication",
+    "text": "Week 10, 03/10: Communication\n\nCommunicating through graphical styles\nInteractive plots for data exploration\nSKILLS: ggplot and extensions\n\nR4DS: Graphics for communication\nOTHER READING: Chartjunk from (Tufte 1990; 2001; 2006)\nGitHub Project Links:\n\nVisualization"
+  },
+  {
+    "objectID": "lectures/week1.html#slides",
+    "href": "lectures/week1.html#slides",
+    "title": "Week 1",
+    "section": "Slides",
+    "text": "Slides\nThe slides for this week’s lesson are available online as an HTML file. Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the slides below and navigate through them with your left and right arrow keys.\n\n\n\n\n\n\n\n\n\n\nTip\n\n\n\nTyping ? (or shift + /) in the slide show brings slide navigation controls.",
+    "crumbs": [
+      "Lectures",
+      "Foundations",
+      "1: Course Goals and Setup"
+    ]
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "PSYC 259: Data Science",
+    "section": "",
+    "text": "Credit: R for Data Science\n\n\nAcknowledge Andrew Heiss Materials"
+  },
+  {
+    "objectID": "syllabus.html",
+    "href": "syllabus.html",
+    "title": "Syllabus",
+    "section": "",
+    "text": "Prof. John Franchak\n Psychology 2125\n franchak@ucr.edu\n Schedule an appointment\n\n\n\n\n\n Mondays\n January 6 to March 10\n 9:00am-11:50am\n Psychology 1205\n\n\n\n\n\n TBD\n SOMEDAY TIME\n SOMWHERE\n tbd@ucr.edu"
+  },
+  {
+    "objectID": "syllabus.html#other-helpful-resources",
+    "href": "syllabus.html#other-helpful-resources",
+    "title": "Syllabus",
+    "section": "Other helpful resources",
+    "text": "Other helpful resources\n\nRStudio cheatsheets for base R, data import, ggplot, R Markdown, and other packages.\nSTAT 545, another good, free textbook on data wrangling and exploration\nHappy Git with R, for all of your Github-Git-R-RStudio needs\nR Markdown: The Definitive Guide\nThe Science of Visual Data Communication article"
+  },
+  {
+    "objectID": "syllabus.html#assignments-and-grading",
+    "href": "syllabus.html#assignments-and-grading",
+    "title": "Syllabus",
+    "section": "Assignments and Grading",
+    "text": "Assignments and Grading\nGrading for the class is S/NC. Your grade will be based on the following:\n\n\n\nComponent\nWeight\n\n\n\n\nParticipation\n20%\n\n\nWeekly assignments\n20%\n\n\nWorkflow critique\n20%\n\n\nFinal project\n40%\n\n\n\n\nParticipation\nYou are expected to attend each class and participate in class discussions. Readings should be completed prior to class so that you can contribute to discussions.\n\n\nWeekly Assignments\nI will assign short practical assignments after most weeks of class. These exercises will develop your skills in R programming and other concepts that we discuss. You are allowed to work in groups of 2-3 students to complete these exercises if you would like, but each student should turn in their own assignment. Please indicate in the top of your assignment the names of the students you worked with. Some class time will be given so that you can start work on the assignment with the help of the instructor/TA. Office hours are also available for help on assignments.\n\n\nWorkflow Self-Critique\nYou should choose a current or past data analysis project that you have worked with (or one from your lab if you are a newer student). In a short paper (3-4 pages), you will first describe the end-to-end workflow of your data. What are sources of raw data? How are those sources combined and/or processed? What research personnel, computing resources, software, and hardware devices are involved? What is the end product needed for statistical analysis? Next, you will take a critical eye to your workflow and identify 1) Where are errors most likely to occur, 2) What time-consuming steps could be automated, and 3) how your workflow could be made more transparent and reproducible. You will briefly present your workflow critique in class. Each student will work individually on this assignment.\n\n\nFinal Project\nIn your final project, you will improve the data workflow that you chose using skills learned in this class. Your final project should be shared with the instructor and TA through an online repository (such as Github, OSF, or Code Ocean) and allow your end-to-end data workflow to be reproduced (e.g., include raw data files, functions that implement processing steps, etc.). You can use whatever programming languages are necessary (it doesn’t need to just be in R), but you should consult with the instructor if R will not be used to ensure that the instructor can run your code (or alternatively, that you demonstrate your workflow to the instructor). Your project should be a report, either to demonstrate exploratory analyses or to communicate the results, that is written in R Markdown and contains visualizations written in R."
+  },
+  {
+    "objectID": "syllabus.html#attendance",
+    "href": "syllabus.html#attendance",
+    "title": "Syllabus",
+    "section": "Attendance",
+    "text": "Attendance\nIn the event of absences due to illness or family obligations, please contact the instructor immediately so that we can make arrangements. Everyone is in a different situation, so I will always work with you to figure out a way to handle disruptions to learning. I want everyone in this class to succeed!"
+  }
+]
