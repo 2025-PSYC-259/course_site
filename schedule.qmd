@@ -32,7 +32,7 @@ Readings should be completed prior to each class.
 
 *GitHub Project Links:*
 
-- [Instructions to set up R, RStudio, git, and Github](https://github.com/psych-259-data-science-2022/259-syllabus-readings-slides/blob/master/software_setup.md)
+- [Instructions to set up R, RStudio, git, and Github](resources.qmd)
 
 ## `r advdate(wed, 2)`: File Organization and Workflow
 - File organization 
