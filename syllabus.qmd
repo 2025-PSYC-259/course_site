@@ -1,6 +1,17 @@
 ---
 title: "Syllabus"
+subtitle: "Principles of Data Science"
+format:
+  html:
+    email-obfuscation: javascript
+  pdf: 
+    fontfamily: tgpagella
+    fontenc: T1
 ---
+
+<!-- ::: {.content-visible when-format="html"} -->
+<!-- | {{< fa file-pdf title="Download" >}} [Download Syllabus](https://padlab.ucr.edu/Franchak_cv.pdf)  -->
+<!-- ::: -->
 
 :::: {.grid .course-details .course-details-smaller}
 
@@ -11,7 +22,6 @@ title: "Syllabus"
 - [{{< fa university >}}]{.fa-li} {{< var instructor.office >}}
 - [{{< fa envelope >}}]{.fa-li} <a href='mailto:{{< var instructor.email >}}'>{{< var instructor.email >}}</a>
 - [{{< fa calendar-check >}}]{.fa-li} [Schedule an appointment]({{< var instructor.appointment_url >}})
-- [{{< iconify ph butterfly-bold size=1.2em title='Bluesky' >}}]{.fa-li} [Bluesky]({{< var instructor.bluesky >}})
 :::
 
 ::: {.g-col-12 .g-col-sm-6 .g-col-md-4}
@@ -20,7 +30,7 @@ title: "Syllabus"
 - [{{< fa calendar >}}]{.fa-li} {{< var course.days >}}
 - [{{< fa calendar-alt >}}]{.fa-li} {{< var course.dates >}}
 - [{{< fa clock >}}]{.fa-li} {{< var course.time >}}
-- [{{< fa location-dot >}}]{.fa-li} {{< var course.location >}}
+- [{{< fa compass >}}]{.fa-li} {{< var course.location >}}
 :::
 
 ::: {.g-col-12 .g-col-md-4 .contact-policy}

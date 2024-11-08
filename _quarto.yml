@@ -15,7 +15,10 @@ website:
     content: "**Reminder!** All students should fill out the ([Course Introduction Survey)](https://forms.gle/cup9GTRT8BL5UhHq8) before 1/6/24)"
     type: danger
     position: below-navbar
-    
+  
+  repo-url: "https://github.com/2025-PSYC-259/course_site"
+  repo-actions: [edit, issue]
+  
   sidebar:
     - title: "Classes and readings"
       style: "docked"

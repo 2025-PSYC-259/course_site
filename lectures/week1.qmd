@@ -50,5 +50,5 @@ xaringanExtra::embed_xaringan(
 ```
 
 :::{.callout-tip}
-**Fun fact**: If you type <kbd>?</kbd> (or <kbd>shift</kbd> + <kbd>/</kbd>) while going through the slides, you can see a list of special slide-specific commands.
+Typing <kbd>?</kbd> (or <kbd>shift</kbd> + <kbd>/</kbd>) in the slide show brings slide navigation controls.
 :::

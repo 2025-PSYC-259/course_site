@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "PSYC 259: Data Science",
     "section": "",
-    "text": "Acknowledge Andrew Heiss Materials"
+    "text": "Credit: R for Data Science\n\n\nAcknowledge Andrew Heiss Materials"
   },
   {
     "objectID": "about.html",
@@ -18,7 +18,7 @@
     "href": "syllabus.html",
     "title": "Syllabus",
     "section": "",
-    "text": "Prof. John Franchak\n Psychology 2125\n franchak@ucr.edu\n Schedule an appointment\n Bluesky\n\n\n\n\n\n Mondays\n January 6 to March 10\n 9:00am-11:50am\n Psychology 1205\n\n\n\n\n\n TBD\n SOMEDAY TIME\n SOMWHERE\n tbd@ucr.edu"
+    "text": "Prof. John Franchak\n Psychology 2125\n franchak@ucr.edu\n Schedule an appointment\n\n\n\n\n\n Mondays\n January 6 to March 10\n 9:00am-11:50am\n Psychology 1205\n\n\n\n\n\n TBD\n SOMEDAY TIME\n SOMWHERE\n tbd@ucr.edu"
   },
   {
     "objectID": "syllabus.html#course-objectives",
@@ -149,7 +149,7 @@
     "href": "lectures/week1.html#slides",
     "title": "Week 1",
     "section": "Slides",
-    "text": "Slides\nThe slides for this week’s lesson are available online as an HTML file. Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the slides below and navigate through them with your left and right arrow keys.\n\n\n\n\n\n\n\n\n\n\nTip\n\n\n\nFun fact: If you type ? (or shift + /) while going through the slides, you can see a list of special slide-specific commands.",
+    "text": "Slides\nThe slides for this week’s lesson are available online as an HTML file. Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the slides below and navigate through them with your left and right arrow keys.\n\n\n\n\n\n\n\n\n\n\nTip\n\n\n\nTyping ? (or shift + /) in the slide show brings slide navigation controls.",
     "crumbs": [
       "Lectures",
       "Foundations",
