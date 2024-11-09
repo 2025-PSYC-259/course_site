@@ -43,7 +43,7 @@ Read before class: *R4DS* [Scripts and projects](https://r4ds.hadley.nz/workflow
 ##  `r advdate(wed, 3)`: NO CLASS - MLK DAY
 
 ##  `r advdate(wed, 4)`: Data Transformations
-Read before class: *R4DS* [Data transformation](https://r4ds.hadley.nz/data-transform) and [Strings](https://r4ds.hadley.nz/strings)
+Read before class: *R4DS* [Data transformation](https://r4ds.hadley.nz/data-transform), [Numbers](https://r4ds.hadley.nz/numbers), and [Strings](https://r4ds.hadley.nz/strings)
 
 - Basic data types (numbers, strings)
 - Variable naming
