@@ -77,6 +77,53 @@
     "text": "Week 10, 03/10: Communication\nRead before class: Chartjunk from (Tufte 1990; 2001; 2006) and R4DS Graphics for communication\n\nCommunicating through graphical styles\nInteractive plots for data exploration\nSKILLS: ggplot and extensions"
   },
   {
+    "objectID": "lectures/week1.html",
+    "href": "lectures/week1.html",
+    "title": "Week 1",
+    "section": "",
+    "text": "Warning\n\n\n\nFollowing along with this course will be frustrating if you don’t have the right version of R installed! Run R.Version() to make sure you are running version 4.0 or above. If not, download R from CRAN.",
+    "crumbs": [
+      "Navigating the lectures",
+      "Foundations",
+      "1: Course Goals and Setup"
+    ]
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "resources/Setup.html",
+    "href": "resources/Setup.html",
+    "title": "Setting up your coding environment",
+    "section": "",
+    "text": "Although you can use lab computers with RStudio and R already installed, it’s most useful for you to get comfortable with running everything on your own system. Follow these instructions to setup the software environment we will need for this class. These instructions are adapted from https://happygitwithr.com.\n\n\nInstall a pre-compiled binary of R for your OS from here https://cloud.r-project.org\nInstall RStudio Desktop. https://www.rstudio.com/products/rstudio/download/preview/\nFor details about checking already-installed software, see https://happygitwithr.com/install-r-rstudio.html#install-r-rstudio.\n\n\n\nFollow the directions here https://happygitwithr.com/install-git.html to get git installed on either Windows or Mac.\nCreate an account on https://github.com (if you don’t already have one). This will be a public-facing name and something you might use for a long time, so choose a sensible name!\nInstall the GitHub Desktop client https://desktop.github.com/.\n\n\n\nFollow the “Hello, World” Tutorial here https://guides.github.com/activities/hello-world/. This uses GitHub only (without messing around with local files on your computer or through RStudio, but it’s a good introduction to some of the key functions)."
+  },
+  {
+    "objectID": "resources/Setup.html#setting-up-r-rstudio-git-and-github",
+    "href": "resources/Setup.html#setting-up-r-rstudio-git-and-github",
+    "title": "Setting up your coding environment",
+    "section": "",
+    "text": "Although you can use lab computers with RStudio and R already installed, it’s most useful for you to get comfortable with running everything on your own system. Follow these instructions to setup the software environment we will need for this class. These instructions are adapted from https://happygitwithr.com.\n\n\nInstall a pre-compiled binary of R for your OS from here https://cloud.r-project.org\nInstall RStudio Desktop. https://www.rstudio.com/products/rstudio/download/preview/\nFor details about checking already-installed software, see https://happygitwithr.com/install-r-rstudio.html#install-r-rstudio.\n\n\n\nFollow the directions here https://happygitwithr.com/install-git.html to get git installed on either Windows or Mac.\nCreate an account on https://github.com (if you don’t already have one). This will be a public-facing name and something you might use for a long time, so choose a sensible name!\nInstall the GitHub Desktop client https://desktop.github.com/.\n\n\n\nFollow the “Hello, World” Tutorial here https://guides.github.com/activities/hello-world/. This uses GitHub only (without messing around with local files on your computer or through RStudio, but it’s a good introduction to some of the key functions)."
+  },
+  {
+    "objectID": "resources/Materials.html",
+    "href": "resources/Materials.html",
+    "title": "Other Helpful Materials",
+    "section": "",
+    "text": "RStudio cheatsheets for base R, data import, ggplot, R Markdown, and other packages.\nSTAT 545, another good, free textbook on data wrangling and exploration\nHappy Git with R, for all of your Github-Git-R-RStudio needs\nR Markdown: The Definitive Guide\nThe Science of Visual Data Communication article"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "PSYC 259: Data Science",
+    "section": "",
+    "text": "The 80/20 rule is the idea that data scientists spend 80% of the time cleaning/preparing the data but only 20% of the time actually running analyses. It makes sense. Most interesting data sets are complicated, messy, unwieldy, and full of mistakes. A model is only as good as the data that go into it, so a careful data scientist aims to simplify, clean, and correct a dataset into something more manageable. Since Psychology PhD students take a lot of classes about modeling—the 20%—so this one class attempts to help you get better at the remaining 80%.\n\n\n\nAdapted from R for Data Science\n\n\nIn a nutshell, this means becoming better at programming. As data cleaning and visualization become easier through automation and more efficient coding, you gain insights about your data, catch mistakes more easily, and avoid tedious tasks (CTRLC and CTRLV). No one can learn every bit of a programming language (especially not in a quarter). But if you learn enough about what a language can do, you’ll know what to learn in the future when you need it.\nThis course follows along with R for Data Science and makes use of tons of free materials out there in the data science community to help people learn how to wrangle data. Even this website (adapted from Andrew Heiss’s Data Visualization course website) is an example of the kinds of things you can build with the tools we cover in this class (click on “edit this page” below to see how this site was built). Aside from the syllabus, lectures, and assignments, this site also contains resources that might help you as you search for the tools you need for your own applications."
+  },
+  {
     "objectID": "syllabus.html",
     "href": "syllabus.html",
     "title": "Syllabus",
@@ -98,50 +145,39 @@
     "text": "Attendance\nIn the event of absences due to illness or family obligations, please contact the instructor immediately so that we can make arrangements. Everyone is in a different situation, so I will always work with you to figure out a way to handle disruptions to learning. I want everyone in this class to succeed!"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "PSYC 259: Data Science",
-    "section": "",
-    "text": "The 80/20 rule is the idea that data scientists spend 80% of the time cleaning/preparing the data but only 20% of the time actually running analyses. It makes sense. Most interesting data sets are complicated, messy, unwieldy, and full of mistakes. A model is only as good as the data that go into it, so a careful data scientist aims to simplify, clean, and correct a dataset into something more manageable. Since Psychology PhD students take a lot of classes about modeling—the 20%—so this one class attempts to help you get better at the remaining 80%.\n\n\n\nAdapted from R for Data Science\n\n\nIn a nutshell, this means becoming better at programming. As data cleaning and visualization become easier through automation and more efficient coding, you gain insights about your data, catch mistakes more easily, and avoid tedious tasks (CTRLC and CTRLV). No one can learn every bit of a programming language (especially not in a quarter). But if you learn enough about what a language can do, you’ll know what to learn in the future when you need it.\nThis course follows along with R for Data Science and makes use of tons of free materials out there in the data science community to help people learn how to wrangle data. Even this website (adapted from Andrew Heiss’s Data Visualization course website) is an example of the kinds of things you can build with the tools we cover in this class (click on “edit this page” below to see how this site was built). Aside from the syllabus, lectures, and assignments, this site also contains resources that might help you as you search for the tools you need for your own applications."
-  },
-  {
-    "objectID": "resources/Materials.html",
-    "href": "resources/Materials.html",
-    "title": "Other Helpful Materials",
-    "section": "",
-    "text": "RStudio cheatsheets for base R, data import, ggplot, R Markdown, and other packages.\nSTAT 545, another good, free textbook on data wrangling and exploration\nHappy Git with R, for all of your Github-Git-R-RStudio needs\nR Markdown: The Definitive Guide\nThe Science of Visual Data Communication article"
-  },
-  {
-    "objectID": "resources/Setup.html",
-    "href": "resources/Setup.html",
-    "title": "Setting up your coding environment",
-    "section": "",
-    "text": "Although you can use lab computers with RStudio and R already installed, it’s most useful for you to get comfortable with running everything on your own system. Follow these instructions to setup the software environment we will need for this class. These instructions are adapted from https://happygitwithr.com.\n\n\nInstall a pre-compiled binary of R for your OS from here https://cloud.r-project.org\nInstall RStudio Desktop. https://www.rstudio.com/products/rstudio/download/preview/\nFor details about checking already-installed software, see https://happygitwithr.com/install-r-rstudio.html#install-r-rstudio.\n\n\n\nFollow the directions here https://happygitwithr.com/install-git.html to get git installed on either Windows or Mac.\nCreate an account on https://github.com (if you don’t already have one). This will be a public-facing name and something you might use for a long time, so choose a sensible name!\nInstall the GitHub Desktop client https://desktop.github.com/.\n\n\n\nFollow the “Hello, World” Tutorial here https://guides.github.com/activities/hello-world/. This uses GitHub only (without messing around with local files on your computer or through RStudio, but it’s a good introduction to some of the key functions)."
-  },
-  {
-    "objectID": "resources/Setup.html#setting-up-r-rstudio-git-and-github",
-    "href": "resources/Setup.html#setting-up-r-rstudio-git-and-github",
-    "title": "Setting up your coding environment",
-    "section": "",
-    "text": "Although you can use lab computers with RStudio and R already installed, it’s most useful for you to get comfortable with running everything on your own system. Follow these instructions to setup the software environment we will need for this class. These instructions are adapted from https://happygitwithr.com.\n\n\nInstall a pre-compiled binary of R for your OS from here https://cloud.r-project.org\nInstall RStudio Desktop. https://www.rstudio.com/products/rstudio/download/preview/\nFor details about checking already-installed software, see https://happygitwithr.com/install-r-rstudio.html#install-r-rstudio.\n\n\n\nFollow the directions here https://happygitwithr.com/install-git.html to get git installed on either Windows or Mac.\nCreate an account on https://github.com (if you don’t already have one). This will be a public-facing name and something you might use for a long time, so choose a sensible name!\nInstall the GitHub Desktop client https://desktop.github.com/.\n\n\n\nFollow the “Hello, World” Tutorial here https://guides.github.com/activities/hello-world/. This uses GitHub only (without messing around with local files on your computer or through RStudio, but it’s a good introduction to some of the key functions)."
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
-  },
-  {
-    "objectID": "lectures/week1.html#slides",
-    "href": "lectures/week1.html#slides",
+    "objectID": "lectures/week2.html",
+    "href": "lectures/week2.html",
     "title": "Week 2",
     "section": "",
     "text": "The slides for this week’s lesson are available online as an HTML file. Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the slides below and navigate through them with your left and right arrow keys.\n\n\n\n\n\n\n\n\n\n\nTip\n\n\n\nTyping ? (or shift + /) in the slide show brings slide navigation controls.",
     "crumbs": [
-      "Lectures",
+      "Navigating the lectures",
       "Foundations",
-      "1: Course Goals and Setup"
+      "2: R Language Basics and Importing"
+    ]
+  },
+  {
+    "objectID": "lectures/week2.html#slides",
+    "href": "lectures/week2.html#slides",
+    "title": "Week 2",
+    "section": "",
+    "text": "The slides for this week’s lesson are available online as an HTML file. Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the slides below and navigate through them with your left and right arrow keys.\n\n\n\n\n\n\n\n\n\n\nTip\n\n\n\nTyping ? (or shift + /) in the slide show brings slide navigation controls.",
+    "crumbs": [
+      "Navigating the lectures",
+      "Foundations",
+      "2: R Language Basics and Importing"
+    ]
+  },
+  {
+    "objectID": "lectures/week2.html#practice",
+    "href": "lectures/week2.html#practice",
+    "title": "Week 2",
+    "section": "Practice",
+    "text": "Practice\nThe webr block below reads one of the vocab files from a url (read_csv is just as happy to read a csv from the internet as from your local file system.) head prints the first few lines so that you can see it worked (ignore the “curl package not installed, falling back to using url()” error, it’s just because we are doing this in a strange R environment in the browser rather than on your computer.)\nTry some different read_csv options by editing the code below:\n\nUse custom column names when reading in the data.\nRead in the data so that all columns are in “character” format. It will say “chr” below each column if they are in character rather than numerical format.\nRead in the data from only 13.5 months on\n\n\nTry it outSee answer\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\n\n\n\n\n\n\nTip\n\n\n\nAfter making your changes, Rerun the code by clicking the  Run Code button. If you want to save the code you wrote, you can click *View R History” in the right panel.",
+    "crumbs": [
+      "Navigating the lectures",
+      "Foundations",
+      "2: R Language Basics and Importing"
     ]
   },
   {
@@ -152,60 +188,36 @@
     "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\nOther Helpful Materials\n\n\n \n\n\n\n\nSetting up your coding environment\n\n\n \n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "lectures/week1.html",
-    "href": "lectures/week1.html",
-    "title": "Week 2",
-    "section": "",
-    "text": "The slides for this week’s lesson are available online as an HTML file. Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the slides below and navigate through them with your left and right arrow keys.\n\n\n\n\n\n\n\n\n\n\nTip\n\n\n\nTyping ? (or shift + /) in the slide show brings slide navigation controls.",
-    "crumbs": [
-      "Lectures",
-      "Foundations",
-      "1: Course Goals and Setup"
-    ]
-  },
-  {
-    "objectID": "lectures/week1.html#practice",
-    "href": "lectures/week1.html#practice",
-    "title": "Week 2",
-    "section": "Practice",
-    "text": "Practice\nThe webr block below reads one of the vocab files from a url (read_csv is just as happy to read a csv from the internet as from your local file system.) head prints the first few lines so that you can see it worked (ignore the “curl package not installed, falling back to using url()” error, it’s just because we are doing this in a strange R environment in the browser rather than on your computer.)\nTry some different read_csv options by editing the code below:\n\nUse custom column names when reading in the data.\nRead in the data so that all columns are in “character” format. It will say  below each column if they are characters.\nRead in the data from only 13 months on\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\n\n\n\nTip\n\n\n\nAfter making your changes, Rerun the code by clicking the  Run Code button. If you want to save the code you wrote, you can click *View R History” in the right panel.",
-    "crumbs": [
-      "Lectures",
-      "Foundations",
-      "1: Course Goals and Setup"
-    ]
-  },
-  {
-    "objectID": "lectures/week1.html#try-some-different-read_csv-options-by-editing-the-code-below-and-rerunning-it",
-    "href": "lectures/week1.html#try-some-different-read_csv-options-by-editing-the-code-below-and-rerunning-it",
-    "title": "Week 2",
-    "section": "Try some different read_csv options by editing the code below and rerunning it",
-    "text": "Try some different read_csv options by editing the code below and rerunning it\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
-    "crumbs": [
-      "Lectures",
-      "Foundations",
-      "1: Course Goals and Setup"
-    ]
-  },
-  {
-    "objectID": "lectures/week2.html",
-    "href": "lectures/week2.html",
+    "objectID": "lectures/2Import.html",
+    "href": "lectures/2Import.html",
     "title": "Week 2",
     "section": "",
     "text": "The slides for this week’s lesson are available online as an HTML file. Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the slides below and navigate through them with your left and right arrow keys.\n\n\n\n\n\n\n\n\n\n\nTip\n\n\n\nTyping ? (or shift + /) in the slide show brings slide navigation controls."
   },
   {
-    "objectID": "lectures/week2.html#slides",
-    "href": "lectures/week2.html#slides",
+    "objectID": "lectures/2Import.html#slides",
+    "href": "lectures/2Import.html#slides",
     "title": "Week 2",
     "section": "",
     "text": "The slides for this week’s lesson are available online as an HTML file. Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the slides below and navigate through them with your left and right arrow keys.\n\n\n\n\n\n\n\n\n\n\nTip\n\n\n\nTyping ? (or shift + /) in the slide show brings slide navigation controls."
   },
   {
-    "objectID": "lectures/week2.html#practice",
-    "href": "lectures/week2.html#practice",
+    "objectID": "lectures/2Import.html#practice",
+    "href": "lectures/2Import.html#practice",
     "title": "Week 2",
     "section": "Practice",
     "text": "Practice\nThe webr block below reads one of the vocab files from a url (read_csv is just as happy to read a csv from the internet as from your local file system.) head prints the first few lines so that you can see it worked (ignore the “curl package not installed, falling back to using url()” error, it’s just because we are doing this in a strange R environment in the browser rather than on your computer.)\nTry some different read_csv options by editing the code below:\n\nUse custom column names when reading in the data.\nRead in the data so that all columns are in “character” format. It will say “chr” below each column if they are in character rather than numerical format.\nRead in the data from only 13.5 months on\n\n\nTry it outSee answer\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\n\n\n\n\n\n\nTip\n\n\n\nAfter making your changes, Rerun the code by clicking the  Run Code button. If you want to save the code you wrote, you can click *View R History” in the right panel."
+  },
+  {
+    "objectID": "lectures/1GoalsSetup.html",
+    "href": "lectures/1GoalsSetup.html",
+    "title": "Week 1",
+    "section": "",
+    "text": "Warning\n\n\n\nFollowing along with this course will be frustrating if you don’t have the right version of R installed! Run R.Version() to make sure you are running version 4.0 or above. If not, download R from CRAN.",
+    "crumbs": [
+      "Lectures",
+      "Foundations",
+      "1: Course Goals and Setup"
+    ]
   }
 ]

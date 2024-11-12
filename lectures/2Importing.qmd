@@ -1,6 +1,7 @@
 ---
 title: "Week 2"
 subtitle: R Language Basics and Importing
+page-navigation: true
 filters: 
   - webr
 webr:

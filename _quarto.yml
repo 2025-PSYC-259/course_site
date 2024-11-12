@@ -28,14 +28,33 @@ website:
       search: false
       background: light
       contents:
-        - section: "Overview"
+        - section: "Navigation"
           contents:
             - lectures/lectures.qmd
         - section: "Foundations"
           contents:
             - text: "1: Course Goals and Setup"
-              file: lectures/week1.qmd
-
+              file: lectures/1GoalsSetup.qmd
+            - text: "2: R Language Basics and Importing"
+              file: lectures/2Importing.qmd
+        - section: "Processing"
+          contents:
+            - text: "3: Data Transformations"
+              file: lectures/3DataTransformations.qmd
+            - text: "4: Data Structure"
+              file: lectures/4DataStructure.qmd          
+        - section: "Efficiency"
+          contents:
+            - text: "5: Automation: Functions and Iteration"
+              file: lectures/5Automation.qmd
+            - text: "6: Exploratory Data Analysis"
+              file: lectures/6EDA.qmd
+        - section: "Communication"
+          contents:
+            - text: "7: Data Sharing and Reproducibility"
+              file: lectures/7DataSharing.qmd
+            - text: "8: Visualization"
+              file: lectures/8Visualization.qmd              
 format:
   html:
     theme: flatly
