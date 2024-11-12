@@ -32,7 +32,7 @@
     "href": "schedule.html#week-04-0127-data-transformations",
     "title": "Schedule",
     "section": "Week 04, 01/27: Data Transformations",
-    "text": "Week 04, 01/27: Data Transformations\nRead before class: R4DS Data transformation and Strings\n\nBasic data types (numbers, strings)\nVariable naming\nSKILLS: dplyr data wrangling, logical statements, strings"
+    "text": "Week 04, 01/27: Data Transformations\nRead before class: R4DS Data transformation, Numbers, and Strings\n\nBasic data types (numbers, strings)\nVariable naming\nSKILLS: dplyr data wrangling, logical statements, strings"
   },
   {
     "objectID": "schedule.html#week-05-0203-data-structure",
@@ -135,9 +135,9 @@
   {
     "objectID": "lectures/week1.html#slides",
     "href": "lectures/week1.html#slides",
-    "title": "Week 1",
-    "section": "Slides",
-    "text": "Slides\nThe slides for this week’s lesson are available online as an HTML file. Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the slides below and navigate through them with your left and right arrow keys.\n\n\n\n\n\n\n\n\n\n\nTip\n\n\n\nTyping ? (or shift + /) in the slide show brings slide navigation controls.",
+    "title": "Week 2",
+    "section": "",
+    "text": "The slides for this week’s lesson are available online as an HTML file. Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the slides below and navigate through them with your left and right arrow keys.\n\n\n\n\n\n\n\n\n\n\nTip\n\n\n\nTyping ? (or shift + /) in the slide show brings slide navigation controls.",
     "crumbs": [
       "Lectures",
       "Foundations",
@@ -150,5 +150,41 @@
     "title": "Resources",
     "section": "",
     "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\nOther Helpful Materials\n\n\n \n\n\n\n\nSetting up your coding environment\n\n\n \n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "lectures/week1.html",
+    "href": "lectures/week1.html",
+    "title": "Week 2",
+    "section": "",
+    "text": "The slides for this week’s lesson are available online as an HTML file. Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the slides below and navigate through them with your left and right arrow keys.\n\n\n\n\n\n\n\n\n\n\nTip\n\n\n\nTyping ? (or shift + /) in the slide show brings slide navigation controls.",
+    "crumbs": [
+      "Lectures",
+      "Foundations",
+      "1: Course Goals and Setup"
+    ]
+  },
+  {
+    "objectID": "lectures/week1.html#practice",
+    "href": "lectures/week1.html#practice",
+    "title": "Week 2",
+    "section": "Practice",
+    "text": "Practice\nThe webr block below reads one of the vocab files from a url (read_csv is just as happy to read a csv from the internet as from your local file system.) head prints the first few lines so that you can see it worked (ignore the “curl package not installed, falling back to using url()” error, it’s just because we are doing this in a strange R environment in the browser rather than on your computer.)\nTry some different read_csv options by editing the code below:\n\nUse custom column names when reading in the data.\nRead in the data so that all columns are in “character” format. It will say  below each column if they are characters.\nRead in the data from only 13 months on\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\n\n\n\nTip\n\n\n\nAfter making your changes, Rerun the code by clicking the  Run Code button. If you want to save the code you wrote, you can click *View R History” in the right panel.",
+    "crumbs": [
+      "Lectures",
+      "Foundations",
+      "1: Course Goals and Setup"
+    ]
+  },
+  {
+    "objectID": "lectures/week1.html#try-some-different-read_csv-options-by-editing-the-code-below-and-rerunning-it",
+    "href": "lectures/week1.html#try-some-different-read_csv-options-by-editing-the-code-below-and-rerunning-it",
+    "title": "Week 2",
+    "section": "Try some different read_csv options by editing the code below and rerunning it",
+    "text": "Try some different read_csv options by editing the code below and rerunning it\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "crumbs": [
+      "Lectures",
+      "Foundations",
+      "1: Course Goals and Setup"
+    ]
   }
 ]

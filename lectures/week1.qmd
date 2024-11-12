@@ -1,38 +1,19 @@
 ---
-title: "Week 1"
-subtitle: Course Goals and Setup
+title: "Week 2"
+subtitle: R Language Basics and Importing
 filters: 
   - webr
 webr:
   packages:
-    - ggplot2
+    - readr
     - dplyr
-    - scales
-    - gapminder
+    - curl
   cell-options:
     editor-font-scale: 0.8
     fig-width: 7
     fig-height: 4.3
     out-width: "100%"
 ---
-
-```{webr-r}
-gapminder_filtered <- gapminder |>
-  filter(year == 2007)
-
-ggplot(data = gapminder_filtered,
-       mapping = aes(x = gdpPercap, y = lifeExp, 
-                     size = pop, color = continent)) +
-  geom_point() + 
-  scale_x_log10(labels = scales::dollar_format(accuracy = 1)) +
-  scale_size_continuous(labels = scales::label_comma()) +
-  scale_color_viridis_d(option = "plasma") +
-  labs(x = "GDP per capita", y = "Life expectancy",
-       title = "Health and wealth are strongly related",
-       subtitle = "142 countries; 2007 only", caption = "Source: The Gapminder Project",
-       color = "Continent", size = "Population") +
-  theme_bw()
-```
 
 ## Slides
 
@@ -51,4 +32,24 @@ xaringanExtra::embed_xaringan(
 
 :::{.callout-tip}
 Typing <kbd>?</kbd> (or <kbd>shift</kbd> + <kbd>/</kbd>) in the slide show brings slide navigation controls.
+:::
+
+## Practice
+
+The `webr` block below reads one of the vocab files from a url (`read_csv` is just as happy to read a csv from the internet as from your local file system.) `head` prints the first few lines so that you can see it worked (ignore the "`curl` package not installed, falling back to using `url()`" error, it's just because we are doing this in a strange R environment in the browser rather than on your computer.)
+
+Try some different `read_csv` options by editing the code below: 
+
+- Use custom column names when reading in the data.
+- Read in the data so that all columns are in "character" format. It will say "chr" below each column if they are in character rather than numerical format.
+- Read in the data from only 13 months on
+
+```{webr-r}
+filename <- "https://raw.githubusercontent.com/psych-259-data-science-2022/259-langbasics-importing/refs/heads/master/data_cleaned/vocab_combined.csv"
+vocab <- read_csv(filename)
+head(vocab)
+```
+
+:::{.callout-tip}
+After making your changes, Rerun the code by clicking the **{{< fa play title="Play" >}} Run Code** button. If you want to save the code you wrote, you can click *View R History" in the right panel.
 :::

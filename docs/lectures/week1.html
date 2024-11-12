@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Week 1 – PSYC 259: Data Science</title>
+<title>Week 2 – PSYC 259: Data Science</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -38,6 +38,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../site_libs/bootstrap/bootstrap-33b4208f1ed0822286a98c11cf2d91fd.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
+<link href="../site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -344,7 +346,7 @@ iframe.qwebr-output-code-browse {
 // Document level settings ----
 
 // Determine if we need to install R packages
-globalThis.qwebrInstallRPackagesList = ['ggplot2', 'dplyr', 'scales', 'gapminder'];
+globalThis.qwebrInstallRPackagesList = ['readr', 'dplyr', 'curl'];
 
 // Specify possible locations to search for the repository
 globalThis.qwebrPackageRepoURLS = ['https://repo.r-wasm.org/'];
@@ -366,7 +368,7 @@ globalThis.qwebrCustomizedWebROptions = {
 };
 
 // Store cell data
-globalThis.qwebrCellDetails = [{"code":"gapminder_filtered <- gapminder |>\n  filter(year == 2007)\n\nggplot(data = gapminder_filtered,\n       mapping = aes(x = gdpPercap, y = lifeExp, \n                     size = pop, color = continent)) +\n  geom_point() + \n  scale_x_log10(labels = scales::dollar_format(accuracy = 1)) +\n  scale_size_continuous(labels = scales::label_comma()) +\n  scale_color_viridis_d(option = \"plasma\") +\n  labs(x = \"GDP per capita\", y = \"Life expectancy\",\n       title = \"Health and wealth are strongly related\",\n       subtitle = \"142 countries; 2007 only\", caption = \"Source: The Gapminder Project\",\n       color = \"Continent\", size = \"Population\") +\n  theme_bw()","id":1,"options":{"autorun":"false","classes":"","comment":"","context":"interactive","dpi":72,"editor-font-scale":"0.8","editor-max-height":"","editor-quick-suggestions":"false","editor-word-wrap":"true","fig-cap":"","fig-height":"4.3","fig-width":"7","label":"unnamed-chunk-1","message":"true","out-height":"","out-width":"100%","output":"true","read-only":"false","results":"markup","warning":"true"}}];
+globalThis.qwebrCellDetails = [{"code":"filename <- \"https://raw.githubusercontent.com/psych-259-data-science-2022/259-langbasics-importing/refs/heads/master/data_cleaned/vocab_combined.csv\"\nvocab <- read_csv(filename)\nhead(vocab)","id":1,"options":{"autorun":"false","classes":"","comment":"","context":"interactive","dpi":72,"editor-font-scale":"0.8","editor-max-height":"","editor-quick-suggestions":"false","editor-word-wrap":"true","fig-cap":"","fig-height":"4.3","fig-width":"7","label":"unnamed-chunk-1","message":"true","out-height":"","out-width":"100%","output":"true","read-only":"false","results":"markup","warning":"true"}}];
 
 </script>
 <script type="module">
@@ -1655,7 +1657,7 @@ globalThis.qwebrExecuteCode = async function (
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../assignments/assignments.html"> 
-<span class="menu-text">Lectures</span></a>
+<span class="menu-text">Assignments</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../resources.html"> 
@@ -1732,6 +1734,7 @@ globalThis.qwebrExecuteCode = async function (
    
   <ul>
   <li><a href="#slides" id="toc-slides" class="nav-link active" data-scroll-target="#slides">Slides</a></li>
+  <li><a href="#practice" id="toc-practice" class="nav-link" data-scroll-target="#practice">Practice</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/2025-PSYC-259/course_site/edit/main/lectures/week1.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/2025-PSYC-259/course_site/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
@@ -2024,8 +2027,8 @@ globalThis.qwebrCreateMonacoEditorInstance = function (cellData) {
 
 <header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../lectures/week1.html">Foundations</a></li><li class="breadcrumb-item"><a href="../lectures/week1.html">1: Course Goals and Setup</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Week 1</h1>
-<p class="subtitle lead">Course Goals and Setup</p>
+<h1 class="title">Week 2</h1>
+<p class="subtitle lead">R Language Basics and Importing</p>
 </div>
 
 
@@ -2042,8 +2045,6 @@ globalThis.qwebrCreateMonacoEditorInstance = function (cellData) {
 </header>
 
 
-<div id="qwebr-insertion-location-1"></div>
-<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 <section id="slides" class="level2">
 <h2 class="anchored" data-anchor-id="slides">Slides</h2>
 <p>The slides for this week’s lesson are available online as an HTML file. Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the slides below and navigate through them with your left and right arrow keys.</p>
@@ -2062,6 +2063,31 @@ Tip
 </div>
 <div class="callout-body-container callout-body">
 <p>Typing <kbd>?</kbd> (or <kbd>shift</kbd> + <kbd>/</kbd>) in the slide show brings slide navigation controls.</p>
+</div>
+</div>
+</section>
+<section id="practice" class="level2">
+<h2 class="anchored" data-anchor-id="practice">Practice</h2>
+<p>The <code>webr</code> block below reads one of the vocab files from a url (<code>read_csv</code> is just as happy to read a csv from the internet as from your local file system.) <code>head</code> prints the first few lines so that you can see it worked (ignore the “<code>curl</code> package not installed, falling back to using <code>url()</code>” error, it’s just because we are doing this in a strange R environment in the browser rather than on your computer.)</p>
+<p>Try some different <code>read_csv</code> options by editing the code below:</p>
+<ul>
+<li>Use custom column names when reading in the data.</li>
+<li>Read in the data so that all columns are in “character” format. It will say <chr> below each column if they are characters.</chr></li>
+<li>Read in the data from only 13 months on</li>
+</ul>
+<div id="qwebr-insertion-location-1"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>After making your changes, Rerun the code by clicking the <strong><i class="fa-solid fa-play" title="Play" aria-label="play"></i> Run Code</strong> button. If you want to save the code you wrote, you can click *View R History” in the right panel.</p>
 </div>
 </div>
 
