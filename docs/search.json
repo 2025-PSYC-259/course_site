@@ -186,5 +186,26 @@
       "Foundations",
       "1: Course Goals and Setup"
     ]
+  },
+  {
+    "objectID": "lectures/week2.html",
+    "href": "lectures/week2.html",
+    "title": "Week 2",
+    "section": "",
+    "text": "The slides for this week’s lesson are available online as an HTML file. Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the slides below and navigate through them with your left and right arrow keys.\n\n\n\n\n\n\n\n\n\n\nTip\n\n\n\nTyping ? (or shift + /) in the slide show brings slide navigation controls."
+  },
+  {
+    "objectID": "lectures/week2.html#slides",
+    "href": "lectures/week2.html#slides",
+    "title": "Week 2",
+    "section": "",
+    "text": "The slides for this week’s lesson are available online as an HTML file. Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the slides below and navigate through them with your left and right arrow keys.\n\n\n\n\n\n\n\n\n\n\nTip\n\n\n\nTyping ? (or shift + /) in the slide show brings slide navigation controls."
+  },
+  {
+    "objectID": "lectures/week2.html#practice",
+    "href": "lectures/week2.html#practice",
+    "title": "Week 2",
+    "section": "Practice",
+    "text": "Practice\nThe webr block below reads one of the vocab files from a url (read_csv is just as happy to read a csv from the internet as from your local file system.) head prints the first few lines so that you can see it worked (ignore the “curl package not installed, falling back to using url()” error, it’s just because we are doing this in a strange R environment in the browser rather than on your computer.)\nTry some different read_csv options by editing the code below:\n\nUse custom column names when reading in the data.\nRead in the data so that all columns are in “character” format. It will say “chr” below each column if they are in character rather than numerical format.\nRead in the data from only 13.5 months on\n\n\nTry it outSee answer\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\n\n\n\n\n\n\nTip\n\n\n\nAfter making your changes, Rerun the code by clicking the  Run Code button. If you want to save the code you wrote, you can click *View R History” in the right panel."
   }
 ]
