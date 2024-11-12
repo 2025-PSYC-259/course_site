@@ -77,15 +77,63 @@
     "text": "Week 10, 03/10: Communication\nRead before class: Chartjunk from (Tufte 1990; 2001; 2006) and R4DS Graphics for communication\n\nCommunicating through graphical styles\nInteractive plots for data exploration\nSKILLS: ggplot and extensions"
   },
   {
-    "objectID": "lectures/week1.html",
-    "href": "lectures/week1.html",
+    "objectID": "lectures/3DataTransformations.html",
+    "href": "lectures/3DataTransformations.html",
     "title": "Week 1",
     "section": "",
     "text": "Warning\n\n\n\nFollowing along with this course will be frustrating if you don’t have the right version of R installed! Run R.Version() to make sure you are running version 4.0 or above. If not, download R from CRAN.",
     "crumbs": [
-      "Navigating the lectures",
-      "Foundations",
-      "1: Course Goals and Setup"
+      "Lectures",
+      "Processing",
+      "3: Data Transformations"
+    ]
+  },
+  {
+    "objectID": "lectures/4DataStructure.html",
+    "href": "lectures/4DataStructure.html",
+    "title": "Week 1",
+    "section": "",
+    "text": "Warning\n\n\n\nFollowing along with this course will be frustrating if you don’t have the right version of R installed! Run R.Version() to make sure you are running version 4.0 or above. If not, download R from CRAN.",
+    "crumbs": [
+      "Lectures",
+      "Processing",
+      "4: Data Structure"
+    ]
+  },
+  {
+    "objectID": "lectures/6EDA.html",
+    "href": "lectures/6EDA.html",
+    "title": "Week 1",
+    "section": "",
+    "text": "Warning\n\n\n\nFollowing along with this course will be frustrating if you don’t have the right version of R installed! Run R.Version() to make sure you are running version 4.0 or above. If not, download R from CRAN.",
+    "crumbs": [
+      "Lectures",
+      "Efficiency",
+      "6: Exploratory Data Analysis"
+    ]
+  },
+  {
+    "objectID": "lectures/7DataSharing.html",
+    "href": "lectures/7DataSharing.html",
+    "title": "Week 1",
+    "section": "",
+    "text": "Warning\n\n\n\nFollowing along with this course will be frustrating if you don’t have the right version of R installed! Run R.Version() to make sure you are running version 4.0 or above. If not, download R from CRAN.",
+    "crumbs": [
+      "Lectures",
+      "Communication",
+      "7: Data Sharing and Reproducibility"
+    ]
+  },
+  {
+    "objectID": "lectures/8Visualization.html",
+    "href": "lectures/8Visualization.html",
+    "title": "Week 1",
+    "section": "",
+    "text": "Warning\n\n\n\nFollowing along with this course will be frustrating if you don’t have the right version of R installed! Run R.Version() to make sure you are running version 4.0 or above. If not, download R from CRAN.",
+    "crumbs": [
+      "Lectures",
+      "Communication",
+      "8: Visualization"
     ]
   },
   {
@@ -145,70 +193,6 @@
     "text": "Attendance\nIn the event of absences due to illness or family obligations, please contact the instructor immediately so that we can make arrangements. Everyone is in a different situation, so I will always work with you to figure out a way to handle disruptions to learning. I want everyone in this class to succeed!"
   },
   {
-    "objectID": "lectures/week2.html",
-    "href": "lectures/week2.html",
-    "title": "Week 2",
-    "section": "",
-    "text": "The slides for this week’s lesson are available online as an HTML file. Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the slides below and navigate through them with your left and right arrow keys.\n\n\n\n\n\n\n\n\n\n\nTip\n\n\n\nTyping ? (or shift + /) in the slide show brings slide navigation controls.",
-    "crumbs": [
-      "Navigating the lectures",
-      "Foundations",
-      "2: R Language Basics and Importing"
-    ]
-  },
-  {
-    "objectID": "lectures/week2.html#slides",
-    "href": "lectures/week2.html#slides",
-    "title": "Week 2",
-    "section": "",
-    "text": "The slides for this week’s lesson are available online as an HTML file. Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the slides below and navigate through them with your left and right arrow keys.\n\n\n\n\n\n\n\n\n\n\nTip\n\n\n\nTyping ? (or shift + /) in the slide show brings slide navigation controls.",
-    "crumbs": [
-      "Navigating the lectures",
-      "Foundations",
-      "2: R Language Basics and Importing"
-    ]
-  },
-  {
-    "objectID": "lectures/week2.html#practice",
-    "href": "lectures/week2.html#practice",
-    "title": "Week 2",
-    "section": "Practice",
-    "text": "Practice\nThe webr block below reads one of the vocab files from a url (read_csv is just as happy to read a csv from the internet as from your local file system.) head prints the first few lines so that you can see it worked (ignore the “curl package not installed, falling back to using url()” error, it’s just because we are doing this in a strange R environment in the browser rather than on your computer.)\nTry some different read_csv options by editing the code below:\n\nUse custom column names when reading in the data.\nRead in the data so that all columns are in “character” format. It will say “chr” below each column if they are in character rather than numerical format.\nRead in the data from only 13.5 months on\n\n\nTry it outSee answer\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\n\n\n\n\n\n\nTip\n\n\n\nAfter making your changes, Rerun the code by clicking the  Run Code button. If you want to save the code you wrote, you can click *View R History” in the right panel.",
-    "crumbs": [
-      "Navigating the lectures",
-      "Foundations",
-      "2: R Language Basics and Importing"
-    ]
-  },
-  {
-    "objectID": "resources.html",
-    "href": "resources.html",
-    "title": "Resources",
-    "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\nOther Helpful Materials\n\n\n \n\n\n\n\nSetting up your coding environment\n\n\n \n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "lectures/2Import.html",
-    "href": "lectures/2Import.html",
-    "title": "Week 2",
-    "section": "",
-    "text": "The slides for this week’s lesson are available online as an HTML file. Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the slides below and navigate through them with your left and right arrow keys.\n\n\n\n\n\n\n\n\n\n\nTip\n\n\n\nTyping ? (or shift + /) in the slide show brings slide navigation controls."
-  },
-  {
-    "objectID": "lectures/2Import.html#slides",
-    "href": "lectures/2Import.html#slides",
-    "title": "Week 2",
-    "section": "",
-    "text": "The slides for this week’s lesson are available online as an HTML file. Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the slides below and navigate through them with your left and right arrow keys.\n\n\n\n\n\n\n\n\n\n\nTip\n\n\n\nTyping ? (or shift + /) in the slide show brings slide navigation controls."
-  },
-  {
-    "objectID": "lectures/2Import.html#practice",
-    "href": "lectures/2Import.html#practice",
-    "title": "Week 2",
-    "section": "Practice",
-    "text": "Practice\nThe webr block below reads one of the vocab files from a url (read_csv is just as happy to read a csv from the internet as from your local file system.) head prints the first few lines so that you can see it worked (ignore the “curl package not installed, falling back to using url()” error, it’s just because we are doing this in a strange R environment in the browser rather than on your computer.)\nTry some different read_csv options by editing the code below:\n\nUse custom column names when reading in the data.\nRead in the data so that all columns are in “character” format. It will say “chr” below each column if they are in character rather than numerical format.\nRead in the data from only 13.5 months on\n\n\nTry it outSee answer\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\n\n\n\n\n\n\nTip\n\n\n\nAfter making your changes, Rerun the code by clicking the  Run Code button. If you want to save the code you wrote, you can click *View R History” in the right panel."
-  },
-  {
     "objectID": "lectures/1GoalsSetup.html",
     "href": "lectures/1GoalsSetup.html",
     "title": "Week 1",
@@ -219,5 +203,60 @@
       "Foundations",
       "1: Course Goals and Setup"
     ]
+  },
+  {
+    "objectID": "lectures/5Automation.html",
+    "href": "lectures/5Automation.html",
+    "title": "Week 1",
+    "section": "",
+    "text": "Warning\n\n\n\nFollowing along with this course will be frustrating if you don’t have the right version of R installed! Run R.Version() to make sure you are running version 4.0 or above. If not, download R from CRAN.",
+    "crumbs": [
+      "Lectures",
+      "Efficiency",
+      "5: Automation: Functions and Iteration"
+    ]
+  },
+  {
+    "objectID": "lectures/2Importing.html",
+    "href": "lectures/2Importing.html",
+    "title": "Week 2",
+    "section": "",
+    "text": "The slides for this week’s lesson are available online as an HTML file. Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the slides below and navigate through them with your left and right arrow keys.\n\n\n\n\n\n\n\n\n\n\nTip\n\n\n\nTyping ? (or shift + /) in the slide show brings slide navigation controls.",
+    "crumbs": [
+      "Lectures",
+      "Foundations",
+      "2: R Language Basics and Importing"
+    ]
+  },
+  {
+    "objectID": "lectures/2Importing.html#slides",
+    "href": "lectures/2Importing.html#slides",
+    "title": "Week 2",
+    "section": "",
+    "text": "The slides for this week’s lesson are available online as an HTML file. Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the slides below and navigate through them with your left and right arrow keys.\n\n\n\n\n\n\n\n\n\n\nTip\n\n\n\nTyping ? (or shift + /) in the slide show brings slide navigation controls.",
+    "crumbs": [
+      "Lectures",
+      "Foundations",
+      "2: R Language Basics and Importing"
+    ]
+  },
+  {
+    "objectID": "lectures/2Importing.html#practice",
+    "href": "lectures/2Importing.html#practice",
+    "title": "Week 2",
+    "section": "Practice",
+    "text": "Practice\nThe webr block below reads one of the vocab files from a url (read_csv is just as happy to read a csv from the internet as from your local file system.) head prints the first few lines so that you can see it worked (ignore the “curl package not installed, falling back to using url()” error, it’s just because we are doing this in a strange R environment in the browser rather than on your computer.)\nTry some different read_csv options by editing the code below:\n\nUse custom column names when reading in the data.\nRead in the data so that all columns are in “character” format. It will say “chr” below each column if they are in character rather than numerical format.\nRead in the data from only 13.5 months on\n\n\nTry it outSee answer\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\n\n\n\n\n\n\nTip\n\n\n\nAfter making your changes, Rerun the code by clicking the  Run Code button. If you want to save the code you wrote, you can click *View R History” in the right panel.",
+    "crumbs": [
+      "Lectures",
+      "Foundations",
+      "2: R Language Basics and Importing"
+    ]
+  },
+  {
+    "objectID": "resources.html",
+    "href": "resources.html",
+    "title": "Resources",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\nOther Helpful Materials\n\n\n \n\n\n\n\nSetting up your coding environment\n\n\n \n\n\n\n\n\nNo matching items"
   }
 ]
