@@ -2,7 +2,7 @@
 title: "PSYC 259: Data Science"
 ---
 
-The [80/20 rule](https://www.pragmaticinstitute.com/resources/articles/data/overcoming-the-80-20-rule-in-data-science/) is the idea that data scientists spend 80% of the time cleaning/preparing the data but only 20% of the time actually running analyses. It makes sense. Most interesting data sets are complicated, messy, unwieldy, and full of mistakes. A model is only as good as the data that go into it, so a careful data scientist aims to simplify, clean, and correct a dataset into something more manageable. Since Psychology PhD students take a lot of classes about modeling---the 20%---so this one class attempts to help you get better at the remaining 80%. 
+The [80/20 rule](https://www.pragmaticinstitute.com/resources/articles/data/overcoming-the-80-20-rule-in-data-science/) is the idea that data scientists spend 80% of the time cleaning/preparing the data but only 20% of the time actually running analyses. It makes sense. Most interesting data sets are complicated, messy, unwieldy, and full of mistakes. A model is only as good as the data that go into it, so a careful data scientist aims to simplify, clean, and correct a dataset into something more manageable. Since Psychology PhD students take a lot of classes about modeling---the 20%---this one class aims to work on the remaining 80%. 
 
 ![Adapted from *R for Data Science*](images/r4ds.png)
 
