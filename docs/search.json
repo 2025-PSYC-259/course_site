@@ -258,5 +258,12 @@
     "title": "Resources",
     "section": "",
     "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\nOther Helpful Materials\n\n\n \n\n\n\n\nSetting up your coding environment\n\n\n \n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "schedule.html#week-10-0310-visualization",
+    "href": "schedule.html#week-10-0310-visualization",
+    "title": "Schedule",
+    "section": "Week 10, 03/10: Visualization",
+    "text": "Week 10, 03/10: Visualization\nRead before class: Chartjunk from (Tufte 1990; 2001; 2006) and R4DS Graphics for communication\n\nCommunicating through graphical styles\nInteractive plots for data exploration\nSKILLS: ggplot and extensions"
   }
 ]
