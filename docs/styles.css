@@ -20,3 +20,11 @@
 .course-details-smaller h3 {
   font-size: 1.4rem;
 }
+
+.course-details-wide ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+.course-details-wide ul > li {
+  position: relative;
+}

@@ -24,9 +24,12 @@ course:
   copyright_year: "2025"
 
 TA:
-  email: tbd@ucr.edu
-  officehour: SOMEDAY TIME
-  office: SOMWHERE
+  name: "Madison Montemayor-Dominguez"
+  email: "madison.montemayordominguez@email.ucr.edu"
+  officehour: "Tuesdays, 2pm-4pm"
+  office: "Olmsted 2107"
+  zoomhour: "Fridays, 10am-12pm"
+  zoomurl: "https://ucr.zoom.us/my/macmonted"
 
 university:
   name: University of California, Riverside

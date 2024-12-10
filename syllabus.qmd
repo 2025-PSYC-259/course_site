@@ -15,7 +15,7 @@ format:
 
 :::: {.grid .course-details .course-details-smaller}
 
-::: {.g-col-12 .g-col-sm-6 .g-col-md-4}
+::: {.g-col-18 .g-col-sm-8 .g-col-md-4}
 ### Instructor
 
 - [{{< fa user >}}]{.fa-li} [{{< var instructor.name >}}]({{< var instructor.url >}})
@@ -24,7 +24,7 @@ format:
 - [{{< fa calendar-check >}}]{.fa-li} [Schedule an appointment]({{< var instructor.appointment_url >}})
 :::
 
-::: {.g-col-12 .g-col-sm-6 .g-col-md-4}
+::: {.g-col-18 .g-col-sm-8 .g-col-md-4}
 ### Course details
 
 - [{{< fa calendar >}}]{.fa-li} {{< var course.days >}}
@@ -33,16 +33,17 @@ format:
 - [{{< fa compass >}}]{.fa-li} {{< var course.location >}}
 :::
 
-::: {.g-col-12 .g-col-md-4 .contact-policy}
+::::
+
+::: {.g-col-24 .g-col-md-4 .contact-policy}
 ### TA Information
 
-- [{{< fa user >}}]{.fa-li} TBD
-- [{{< fa calendar >}}]{.fa-li} {{< var TA.officehour >}}
-- [{{< fa university >}}]{.fa-li} {{< var TA.office >}}
+- [{{< fa user >}}]{.fa-li} {{< var TA.name >}}
 - [{{< fa envelope >}}]{.fa-li} <a href='mailto:{{< var TA.email >}}'>{{< var TA.email >}}</a>
-:::
+- In-Person Office Hours: {{< var TA.officehour >}}: {{< var TA.office >}}
+- Zoom Office Hours: {{< var TA.zoomhour >}}: {{< var TA.zoomurl >}}
 
-::::
+:::
 
 # Course Description
 
@@ -77,22 +78,22 @@ Grading for the class is S/NC. Your grade will be based on the following:
 |Component|Weight|
 |:--------|:------|
 |Participation           | 20%|
-|Weekly assignments      | 20%|
+|Weekly assignments      | 30%|
 |Workflow critique       | 20%|
-|Final project           | 40%|
+|Final project           | 30%|
 
 
 ### Participation 
 
-You are expected to attend each class and participate in class discussions. Readings should be completed prior to class so that you can contribute to discussions. 
+You are expected to attend each class and participate in class discussions. Readings should be completed prior to class so that you are prepared. 
 
 ### Weekly Assignments 
 
-I will assign short practical assignments after most weeks of class. These exercises will develop your skills in R programming and other concepts that we discuss. You are allowed to work in groups of 2-3 students to complete these exercises if you would like, but each student should turn in their own assignment. Please indicate in the top of your assignment the names of the students you worked with. Some class time will be given so that you can start work on the assignment with the help of the instructor/TA. Office hours are also available for help on assignments. 
+I will assign short practical assignments after most weeks of class. These exercises will develop your skills in R programming and other concepts that we discuss. You are allowed to work in groups of 2-4 students to complete these exercises if you would like, but each student should turn in their own assignment. Please indicate in the top of your assignment the names of the students you worked with. Some class time will be given so that you can start work on the assignment with the help of the instructor/TA. Office hours are also available for help on assignments. 
 
 ### Workflow Self-Critique 
 
-You should choose a current or past data analysis project that you have worked with (or one from your lab if you are a newer student). In a short paper (3-4 pages), you will first describe the end-to-end workflow of your data. What are sources of raw data? How are those sources combined and/or processed? What research personnel, computing resources, software, and hardware devices are involved? What is the end product needed for statistical analysis? Next, you will take a critical eye to your workflow and identify 1) Where are errors most likely to occur, 2) What time-consuming steps could be automated, and 3) how your workflow could be made more transparent and reproducible. Each student will work individually on this assignment.
+You should choose a current or past data analysis project that you have worked with (or one from your lab if you are a newer student). In a class presentation during week 5 or 6, you will  describe the end-to-end workflow of your data. What are sources of raw data? How are those sources combined and/or processed? What research personnel, computing resources, software, and hardware devices are involved? What is the end product needed for statistical analysis? Next, you will take a critical eye to your workflow and identify 1) Where are errors most likely to occur, 2) What time-consuming steps could be automated, and 3) how your workflow could be made more transparent and reproducible.
 
 ### Final Project 
 
