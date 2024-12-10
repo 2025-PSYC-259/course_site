@@ -1,5 +1,18 @@
 [
   {
+    "listing": "/assignments.html",
+    "items": [
+      "/assignments/ImportHomework.html",
+      "/assignments/DataTransformationsHomework.html",
+      "/assignments/WorkflowCritique.html",
+      "/assignments/AutomationHomework.html",
+      "/assignments/IntegratingSkillsHomework.html",
+      "/assignments/DataStructureHomework.html",
+      "/assignments/FinalProject.html",
+      "/assignments/QuartoHomework.html"
+    ]
+  },
+  {
     "listing": "/resources.html",
     "items": [
       "/resources/Materials.html",

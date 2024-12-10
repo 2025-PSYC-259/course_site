@@ -1,0 +1,9 @@
+---
+title: "Workflow Critique"
+due-date: "2/2/2025"
+type: "Presentation"
+---
+
+:::{.callout-warning}
+This is an assignment draft and will be finalized later in the quarter.
+:::

@@ -10,7 +10,7 @@ website:
       - syllabus.qmd
       - schedule.qmd
       - lectures/lectures.qmd
-      - assignments/assignments.qmd
+      - assignments.qmd
       - resources.qmd
   announcement:
     icon: calendar-check

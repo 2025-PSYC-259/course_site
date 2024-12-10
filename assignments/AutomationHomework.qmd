@@ -1,0 +1,9 @@
+---
+title: "Automation and Functions"
+due-date: "2/21/2025"
+type: "Homework"
+---
+
+:::{.callout-warning}
+This is an assignment draft and will be finalized later in the quarter.
+:::

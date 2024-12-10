@@ -26,7 +26,7 @@ Read before class: *R4DS* [Introduction](https://r4ds.hadley.nz/intro) and [Work
 - Workflow examples
 - Software setup
 - Introduction to Github
-- [Instructions to set up R, RStudio, git, and Github](resources/setup.qmd)
+- [Instructions to set up R, RStudio, git, and Github](resources/Setup.qmd)
 
 ## `r advdate(wed, 2)`: [File Organization and Workflow](lectures/2Importing.qmd)
 Read before class: *R4DS* [Scripts and projects](https://r4ds.hadley.nz/workflow-scripts) and [Data import](https://r4ds.hadley.nz/data-import)

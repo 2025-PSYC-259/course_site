@@ -1,0 +1,17 @@
+---
+title: "Assignments"
+listing:
+  contents: assignments
+  type: table
+  fields: [due-date, title, type]
+  sort-ui: false
+  filter-ui: false
+  field-display-names:
+    due-date: "Due Date"
+    type: "Assignment Type"
+  field-types:
+    due-date: date
+  sort: due-date
+  date-format: short
+---
+

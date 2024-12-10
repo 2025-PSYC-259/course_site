@@ -1,6 +1,6 @@
 ---
-title: "Week 1"
-subtitle: Course Setup
+title: "Week 6"
+subtitle: "Automation: Functions and Iteration"
 page-navigation: true
 ---
 

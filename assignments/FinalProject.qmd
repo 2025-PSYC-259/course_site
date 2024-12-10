@@ -1,0 +1,9 @@
+---
+title: "Final Project"
+due-date: "3/17/25"
+type: "Project"
+---
+
+:::{.callout-warning}
+This is an assignment draft and will be finalized later in the quarter.
+:::

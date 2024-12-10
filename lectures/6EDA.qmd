@@ -1,9 +1,5 @@
 ---
-title: "Week 1"
-subtitle: Course Setup
+title: "Week 8"
+subtitle: Exploratory Data Analysis
 page-navigation: true
 ---
-
-:::{.callout-warning}
-Following along with this course will be frustrating if you don't have the right version of R installed! Run `R.Version()` to make sure you are running version 4.0 or above. If not, [download R from CRAN](https://cran.r-project.org/).
-:::
