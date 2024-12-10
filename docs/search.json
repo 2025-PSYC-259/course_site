@@ -261,7 +261,7 @@
     "href": "lectures/1GoalsSetup.html",
     "title": "Week 1",
     "section": "",
-    "text": "Warning\n\n\n\nFollowing along with this course will be frustrating if you don’t have the right version of R installed! Run R.Version() to make sure you are running version 4.0 or above. If not, download R from CRAN.",
+    "text": "Warning\n\n\n\nFollowing along with this course will be frustrating if you don’t have the right version of R installed! Run R.Version() to make sure you are running version 4.0 or above. If not, download R from CRAN.\n\n\n\n    It appears you don't have a PDF plugin for this browser.\n    No biggie... you can click here to\n    download the PDF file.",
     "crumbs": [
       "Lectures",
       "Foundations",
