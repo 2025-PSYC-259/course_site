@@ -117,6 +117,27 @@
     "text": "Warning\n\n\n\nThis is an assignment draft and will be finalized later in the quarter."
   },
   {
+    "objectID": "assignments/WorkflowCritique.html#assignment-overview",
+    "href": "assignments/WorkflowCritique.html#assignment-overview",
+    "title": "Workflow Critique",
+    "section": "Assignment Overview",
+    "text": "Assignment Overview\nThe goal of this assignment is to take an existing workflow and critically analyze it with an eye for 1) efficiency, 2) fidelity, and 3) sharing/reproducibility. The project will take the form of an in-class presentation (7-8 minutes). You should choose a current or past data analysis project that you have worked with (or one from your lab or a public repository if you are a new student or don’t have data to work with). You will make changes to this workflow for your final course project, so choose something that will be useful to you! Each student should work on their own assignment (unlike homework, this is not a collaborative project)"
+  },
+  {
+    "objectID": "assignments/WorkflowCritique.html#sections",
+    "href": "assignments/WorkflowCritique.html#sections",
+    "title": "Workflow Critique",
+    "section": "Sections",
+    "text": "Sections\nIn your presentation, you will have two sections: workflow and critique. The workflow section should be briefer (about 2-3 minutes) so that you can focus more on the critique. Avoid spending time describing the project aims/research goals; please keep your focus on the workflow and implementation of the project.\n\nWorkflow\nIn the workflow section, describe the end-to-end workflow of your data analysis project. Provide only enough detail here so that we can understand the critique section. What are sources of raw data, and how are they stored? What steps are needed to combine and/or process the raw data? What research personnel, computing resources, software, and hardware devices are involved in your workflow? What is/are the end product(s) needed for statistical analysis? You don’t have to answer every question, just what helps you explain the critique\n\n\nCritique\nNext, you will take a critical eye to your workflow and discuss: *Efficiency**: Discuss what time-consuming steps in the workflow could be improved with coding (or coding with more automation). What parts of the workflow are iterative and need to be repeated when making changes or correcting errors? *Fidelity**: Discuss where errors in the workflow are most likely to occur and what procedures you might implement to improve the fidelity of data, such as eliminating copy/paste or other manual procedures or implementing formal data checks. How do you track what data are cleaned, and what participants/sessions should be included in final analyses? *Sharing/reproducibility**: Examine how an outsider might view the project. How well are the files organized and how well documented are the procedures? Would someone be able to reproduce the analyses? If not, what steps could be taken to make this possible (e.g., coding the analyses rather than using a drop-down menu)?"
+  },
+  {
+    "objectID": "assignments/WorkflowCritique.html#due-date",
+    "href": "assignments/WorkflowCritique.html#due-date",
+    "title": "Workflow Critique",
+    "section": "Due Date",
+    "text": "Due Date\nYou will give your presentation in class during Week 5, 6, or 8. Regardless of your presentation date, you should turn in your slides to John on 2/02/2025 by 5pm. Export your slides as a PDF with file name “Lastname_critique.pdf” to send to John by email."
+  },
+  {
     "objectID": "assignments/DataTransformationsHomework.html",
     "href": "assignments/DataTransformationsHomework.html",
     "title": "Data Transformations",
@@ -138,11 +159,39 @@
     "text": "Warning\n\n\n\nThis is an assignment draft and will be finalized later in the quarter."
   },
   {
+    "objectID": "assignments/FinalProject.html#assignment-overview",
+    "href": "assignments/FinalProject.html#assignment-overview",
+    "title": "Final Project",
+    "section": "Assignment Overview",
+    "text": "Assignment Overview\nThe goal of this assignment is to take an existing workflow and improve its 1) efficiency, 2) fidelity, and 3) sharing/reproducibility. There are two parts of the project. The first part is a Github repository that tracks changes you made to your project and shows how your new workflow is set up. The second part is a written report that describes the changes you made, why you made them, and what benefits each one should create. This report should use Quarto to illustrate changes you made to code, the examples of error checking and EDA, and figures made from your data. All of the files, including data files, scripts, figures, and the Quarto report, should be stored on the Github repository.\nDue Date. The final project is due on March 17 at 5:00pm. You should make your Github repository public and email the URL of the repository to John. If you prefer to make it private (such is if you have data that should not be shared publicly), you can make a private Github repository and add John as a user."
+  },
+  {
+    "objectID": "assignments/FinalProject.html#github-repository",
+    "href": "assignments/FinalProject.html#github-repository",
+    "title": "Final Project",
+    "section": "Github repository",
+    "text": "Github repository\nBefore you start to make changes to your project, set up a Github repository with your current project files so that we can see the “before”. Because the focus of the course has been on data wrangling and exploratory analysis, your project should contain raw data files, script(s) that im- port and clean the data, and scripts that explore the data and/or check for errors. If you have raw data that contains sensitive information, you can deidentify the data or make a few “fake” data files that have the correct format/structure so that we can understand the project. Please do not share anything publicly on Github that you are not allowed share. Another option is to tell Github to ignore the folder containing raw/sensitive data and share a screenshot with us showing how the raw data are formatted. Or, you can create a private repository and share it directly with the instructors. If in doubt, ask, and we can figure out something that works for your project.\nAs you work on your project and make changes, commit and push the changes to Github so that we can see what you changed. If you’ve already started making changes and they’re not tracked in Github, let us know and we can try to figure out a way to see the “before” version of the project. If your project uses a coding language other than R for data import/cleaning/checking, that’s OK. Let us know in advance so that we can make sure we have a way to see/understand what your project does. No matter what language(s) you use in the project, everyone should use Quarto and R to make the report."
+  },
+  {
+    "objectID": "assignments/FinalProject.html#what-changes-should-you-make",
+    "href": "assignments/FinalProject.html#what-changes-should-you-make",
+    "title": "Final Project",
+    "section": "What changes should you make?",
+    "text": "What changes should you make?\nBased on your self-critique assignment and our feedback, you should make changes to improve the efficiency, fidelity, and sharing/reproducibility of the project. You don’t need to cover these three categories equally. If improving the efficiency is most important to your project, focus on that. Of course, some changes might fall into multiple categories (e.g., automating reading data from a file is more efficient and is less likely to lead to mistakes). Please describe the reasoning behind the changes you chose to make. Your final project should contain at least one example of the following items:\n\nWrote a custom function to reduce code repetition and/or split long scripts into more manageable files\nUsed some form of automation (map, for loop, across, read_csv) to replace repetitive code or manual data entry/copy/paste\nPlotted graphs or created data checks to explore the data\nImproved documentation of the project, file organization, and/or readability of the code\n\nWe don’t expect the final project to be perfect (whatever that means!). It would be impossible to make every change you might want to make in a few weeks. You can, instead, demonstrate in one section of the code how you used automation to improve the workflow, and describe how you might apply a similar technique in other sections of your project. Prioritize making changes that will help your project the most and help you learn skills you want to learn."
+  },
+  {
+    "objectID": "assignments/FinalProject.html#quarto-report",
+    "href": "assignments/FinalProject.html#quarto-report",
+    "title": "Final Project",
+    "section": "Quarto report",
+    "text": "Quarto report\nUse Quarto to prepare a report that summarizes the work you did to improve your project. Because everyone’s changes will be different, you should structure the report in a way that makes sense to you. For each change that you made, please be sure to explain how you did it and why you did it. Make use of Quarto code chunks to illustrate the before and after of a change you made to code (not every change, but changes that are representative of the type of change). You are encouraged to embed figures to illustrate the results of your data checking and exploration. Render your Quarto file as a PDF or HTML so that we can view it easily."
+  },
+  {
     "objectID": "assignments.html",
     "href": "assignments.html",
     "title": "Assignments",
     "section": "",
-    "text": "Due Date\n\n\nTitle\n\n\nAssignment Type\n\n\n\n\n\n\n1/24/25\n\n\nData Importing\n\n\nHomework\n\n\n\n\n1/31/25\n\n\nData Transformations\n\n\nHomework\n\n\n\n\n2/2/25\n\n\nWorkflow Critique\n\n\nPresentation\n\n\n\n\n2/21/25\n\n\nAutomation and Functions\n\n\nHomework\n\n\n\n\n2/28/25\n\n\nIntegrating Skills\n\n\nHomework\n\n\n\n\n2/7/25\n\n\nData Transformations\n\n\nHomework\n\n\n\n\n3/17/25\n\n\nFinal Project\n\n\nProject\n\n\n\n\n3/7/25\n\n\nQuarto Reports\n\n\nHomework\n\n\n\n\n\nNo matching items"
+    "text": "Due Date\n\n\nTitle\n\n\nAssignment Type\n\n\n\n\n\n\nFriday, January 24, 2025\n\n\nData Importing\n\n\nHomework\n\n\n\n\nFriday, January 31, 2025\n\n\nData Transformations\n\n\nHomework\n\n\n\n\nSunday, February 2, 2025\n\n\nWorkflow Critique\n\n\nPresentation\n\n\n\n\nFriday, February 7, 2025\n\n\nData Transformations\n\n\nHomework\n\n\n\n\nFriday, February 21, 2025\n\n\nAutomation and Functions\n\n\nHomework\n\n\n\n\nFriday, February 28, 2025\n\n\nIntegrating Skills\n\n\nHomework\n\n\n\n\nFriday, March 7, 2025\n\n\nQuarto Reports\n\n\nHomework\n\n\n\n\nMonday, March 17, 2025\n\n\nFinal Project\n\n\nProject\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "assignments/AutomationHomework.html",
@@ -175,7 +224,7 @@
   {
     "objectID": "resources/Materials.html",
     "href": "resources/Materials.html",
-    "title": "Other Helpful Materials",
+    "title": "Books and websites",
     "section": "",
     "text": "RStudio cheatsheets for base R, data import, ggplot, R Markdown, and other packages.\nSTAT 545, another good, free textbook on data wrangling and exploration\nHappy Git with R, for all of your Github-Git-R-RStudio needs\nR Markdown: The Definitive Guide\nThe Science of Visual Data Communication article"
   },
@@ -198,7 +247,7 @@
     "href": "syllabus.html#assignments-and-grading",
     "title": "Syllabus",
     "section": "Assignments and Grading",
-    "text": "Assignments and Grading\nGrading for the class is S/NC. Your grade will be based on the following:\n\n\n\nComponent\nWeight\n\n\n\n\nParticipation\n20%\n\n\nWeekly assignments\n30%\n\n\nWorkflow critique\n20%\n\n\nFinal project\n30%\n\n\n\n\nParticipation\nYou are expected to attend each class and participate in class discussions. Readings should be completed prior to class so that you are prepared.\n\n\nWeekly Assignments\nI will assign short practical assignments after most weeks of class. These exercises will develop your skills in R programming and other concepts that we discuss. You are allowed to work in groups of 2-4 students to complete these exercises if you would like, but each student should turn in their own assignment. Please indicate in the top of your assignment the names of the students you worked with. Some class time will be given so that you can start work on the assignment with the help of the instructor/TA. Office hours are also available for help on assignments.\n\n\nWorkflow Self-Critique\nYou should choose a current or past data analysis project that you have worked with (or one from your lab if you are a newer student). In a class presentation during week 5 or 6, you will describe the end-to-end workflow of your data. What are sources of raw data? How are those sources combined and/or processed? What research personnel, computing resources, software, and hardware devices are involved? What is the end product needed for statistical analysis? Next, you will take a critical eye to your workflow and identify 1) Where are errors most likely to occur, 2) What time-consuming steps could be automated, and 3) how your workflow could be made more transparent and reproducible.\n\n\nFinal Project\nIn your final project, you will improve the data workflow that you chose using skills learned in this class. Your final project should be shared with the instructor and TA through an online repository (such as Github, OSF, or Code Ocean) and allow your end-to-end data workflow to be reproduced (e.g., include raw data files, functions that implement processing steps, etc.). You can use whatever programming languages are necessary (it doesn’t need to just be in R), but you should consult with the instructor if R will not be used to ensure that the instructor can run your code (or alternatively, that you demonstrate your workflow to the instructor). Your project should be a report, either to demonstrate exploratory analyses or to communicate the results, that is written in Quarto and contains visualizations written in R."
+    "text": "Assignments and Grading\nGrading for the class is S/NC. Your grade will be based on the following:\n\n\n\nComponent\nWeight\n\n\n\n\nParticipation\n20%\n\n\nWeekly assignments\n30%\n\n\nWorkflow critique\n20%\n\n\nFinal project\n30%\n\n\n\n\nParticipation\nYou are expected to attend each class and participate in class discussions. Readings should be completed prior to class so that you are prepared.\n\n\nWeekly Assignments\nI will assign short practical assignments after most weeks of class. These exercises will develop your skills in R programming and other concepts that we discuss. You are allowed to work in groups of 2-4 students to complete these exercises if you would like, but each student should turn in their own assignment. Please indicate in the top of your assignment the names of the students you worked with. Some class time will be given so that you can start work on the assignment with the help of the instructor/TA. Office hours are also available for help on assignments.\n\n\nWorkflow Self-Critique\nYou should choose a current or past data analysis project that you have worked with (or one from your lab if you are a newer student). In a class presentation during week 5, 6 or 8, you will describe the end-to-end workflow of your data. What are sources of raw data? How are those sources combined and/or processed? What research personnel, computing resources, software, and hardware devices are involved? What is the end product needed for statistical analysis? Next, you will take a critical eye to your workflow and identify 1) Where are errors most likely to occur, 2) What time-consuming steps could be automated, and 3) how your workflow could be made more transparent and reproducible.\n\n\nFinal Project\nIn your final project, you will improve the data workflow that you chose using skills learned in this class. Your final project should be shared with the instructor and TA through an online repository (such as Github, OSF, or Code Ocean) and allow your end-to-end data workflow to be reproduced (e.g., include raw data files, functions that implement processing steps, etc.). You can use whatever programming languages are necessary (it doesn’t need to just be in R), but you should consult with the instructor if R will not be used to ensure that the instructor can run your code (or alternatively, that you demonstrate your workflow to the instructor). Your project should be a report, either to demonstrate exploratory analyses or to communicate the results, that is written in Quarto and contains visualizations written in R."
   },
   {
     "objectID": "syllabus.html#attendance",
@@ -272,6 +321,6 @@
     "href": "resources.html",
     "title": "Resources",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\nOther Helpful Materials\n\n\n \n\n\n\n\nSetting up your coding environment\n\n\n \n\n\n\n\n\nNo matching items"
+    "text": "Title\n\n\n\n\n\n\nBooks and websites\n\n\n\n\nSetting up your coding environment\n\n\n\n\n\nNo matching items"
   }
 ]

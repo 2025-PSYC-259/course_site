@@ -3,5 +3,8 @@ title: "Resources"
 listing:
   contents: resources
   type: table
+  filter-ui: false
+  sort-ui: false
+  fields: [title]
 ---
 

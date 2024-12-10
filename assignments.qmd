@@ -12,6 +12,7 @@ listing:
   field-types:
     due-date: date
   sort: due-date
-  date-format: short
+  date-format: full
+  categories: unnumbered
 ---
 

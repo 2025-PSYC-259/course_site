@@ -1,7 +1,8 @@
 ---
 title: "Data Importing"
-due-date: "1/24/2025"
+due-date: "01/24/2025"
 type: "Homework"
+categories: Homework
 ---
 
 :::{.callout-warning}
