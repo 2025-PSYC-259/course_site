@@ -15,7 +15,7 @@ website:
   announcement:
     icon: calendar-check
     dismissable: true
-    content: "**Reminder!** All students should fill out the ([Course Introduction Survey)](https://forms.gle/cup9GTRT8BL5UhHq8) before 1/6/24)"
+    content: "**Reminder!** All students should fill out the ([Course Introduction Survey)](https://forms.gle/cup9GTRT8BL5UhHq8) before 1/3/24)"
     type: danger
     position: below-navbar
   
