@@ -2,3 +2,10 @@
 title: "Lectures"
 page-navigation: true
 ---
+
+All of the lecture content---slides, links to GitHub repositories, in-class examples---are here. Use the navigation panel on the left to jump to each week. The course is organized in four sections:
+
+1. **Foundations** focuses on the big picture themes and then the nitty-gritty beginnings of programming in R and importing data. 
+1. **Processing** is about how to transform, shape, convert, and organize the data once it's in R.
+1. **Efficiency** focuses on how to automate tasks with loops and functions, allowing you to more easily explore your data. 
+1. **Communication** is about using Quarto and ggplot to share reports and figures transparently.

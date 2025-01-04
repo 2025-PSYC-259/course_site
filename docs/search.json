@@ -4,21 +4,21 @@
     "href": "schedule.html",
     "title": "Schedule",
     "section": "",
-    "text": "Read before class: R4DS Introduction and Workflow Basics\n\nGoals of the class\nLogistics\nWorkflow examples\nSoftware setup\nIntroduction to Github\nInstructions to set up R, RStudio, git, and Github"
+    "text": "Read before class: R4DS Introduction\n\nGoals of the class\nLogistics\nWorkflow examples\nSoftware setup\nIntroduction to Github\nInstructions to set up R, RStudio, git, and Github"
   },
   {
     "objectID": "schedule.html#week-01-0106-course-goals-and-setup",
     "href": "schedule.html#week-01-0106-course-goals-and-setup",
     "title": "Schedule",
     "section": "",
-    "text": "Read before class: R4DS Introduction and Workflow Basics\n\nGoals of the class\nLogistics\nWorkflow examples\nSoftware setup\nIntroduction to Github\nInstructions to set up R, RStudio, git, and Github"
+    "text": "Read before class: R4DS Introduction\n\nGoals of the class\nLogistics\nWorkflow examples\nSoftware setup\nIntroduction to Github\nInstructions to set up R, RStudio, git, and Github"
   },
   {
     "objectID": "schedule.html#week-02-0113-file-organization-and-workflow",
     "href": "schedule.html#week-02-0113-file-organization-and-workflow",
     "title": "Schedule",
     "section": "Week 02, 01/13: File Organization and Workflow",
-    "text": "Week 02, 01/13: File Organization and Workflow\nRead before class: R4DS Scripts and projects and Data import\n\nFile organization\nVersion control\nSKILLS: R language basics (variables, assignment, comments, calling functions), file import/export"
+    "text": "Week 02, 01/13: File Organization and Workflow\nRead before class: R4DS Workflow Basics, Scripts and projects, and Data import\n\nFile organization\nVersion control\nSKILLS: R language basics (variables, assignment, comments, calling functions), file import/export"
   },
   {
     "objectID": "schedule.html#week-03-0120-no-class---mlk-day",
@@ -261,7 +261,31 @@
     "href": "lectures/1GoalsSetup.html",
     "title": "Week 1",
     "section": "",
-    "text": "Warning\n\n\n\nFollowing along with this course will be frustrating if you don’t have the right version of R installed! Run R.Version() to make sure you are running version 4.0 or above. If not, download R from CRAN.\n\n\n\n    It appears you don't have a PDF plugin for this browser.\n    No biggie... you can click here to\n    download the PDF file.",
+    "text": "Warning\n\n\n\nDid you set up R, RStudio, git, and GitHub? If not, follow the instructions here.\nDownload Week 1 Slides",
+    "crumbs": [
+      "Lectures",
+      "Foundations",
+      "1: Course Goals and Setup"
+    ]
+  },
+  {
+    "objectID": "lectures/1GoalsSetup.html#lecture-1-outline",
+    "href": "lectures/1GoalsSetup.html#lecture-1-outline",
+    "title": "Week 1",
+    "section": "Lecture 1 Outline",
+    "text": "Lecture 1 Outline\n\nIntroductions\nCourse overview\nWorkflow examples\nLogistics\nCourse focus\nSoftware setup",
+    "crumbs": [
+      "Lectures",
+      "Foundations",
+      "1: Course Goals and Setup"
+    ]
+  },
+  {
+    "objectID": "lectures/1GoalsSetup.html#github-practice",
+    "href": "lectures/1GoalsSetup.html#github-practice",
+    "title": "Week 1",
+    "section": "GitHub Practice",
+    "text": "GitHub Practice\nIf you have git, a GitHub account, and the GitHub Desktop Client, let’s try to fork a repository to your own account.\n\nNavigate to https://github.com/2025-PSYC-259/package_install.\nClick “fork”. This will make a fork of the repository under your own account.\nIn your repository, click “Code” and then “Open with GitHub Desktop”\nThis should open up the GitHub Desktop Client. From that application, choose a non-cloud location on your local machine to store the cloned repository. A good place would be User/Documents/Github.\nUse GitHub to jump to the directory (or navigate through Finder/Explore) and then open the project.\nTry changing the package_install.R file and saving the change. You should now see that change registered in GitHub Desktop.\nIf you want, you can commit the change with a message and push it back to the origin. Now it will be saved in your GitHub repository in the cloud.",
     "crumbs": [
       "Lectures",
       "Foundations",
@@ -278,6 +302,18 @@
       "Lectures",
       "Efficiency",
       "5: Automation: Functions and Iteration"
+    ]
+  },
+  {
+    "objectID": "lectures/lectures.html",
+    "href": "lectures/lectures.html",
+    "title": "Lectures",
+    "section": "",
+    "text": "All of the lecture content—slides, links to GitHub repositories, in-class examples—are here. Use the navigation panel on the left to jump to each week. The course is organized in four sections:\n\nFoundations focuses on the big picture themes and then the nitty-gritty beginnings of programming in R and importing data.\nProcessing is about how to transform, shape, convert, and organize the data once it’s in R.\nEfficiency focuses on how to automate tasks with loops and functions, allowing you to more easily explore your data.\nCommunication is about using Quarto and ggplot to share reports and figures transparently.",
+    "crumbs": [
+      "Lectures",
+      "Navigation",
+      "Lectures"
     ]
   },
   {

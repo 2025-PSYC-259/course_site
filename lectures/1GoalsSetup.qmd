@@ -5,13 +5,43 @@ page-navigation: true
 ---
 
 :::{.callout-warning}
-Following along with this course will be frustrating if you don't have the right version of R installed! Run `R.Version()` to make sure you are running version 4.0 or above. If not, [download R from CRAN](https://cran.r-project.org/).
+Did you set up R, RStudio, git, and GitHub? If not, follow the instructions [here](/resources/Setup.qmd).
 :::
 
-```{=html}
-<object data="/pdf/1_Introduction.pdf" type="application/pdf" width="100%" height="20%" style="min-height:80vh;">
-    <p>It appears you don't have a PDF plugin for this browser.
-    No biggie... you can <a href="/pdf/1_Introduction.pdf">click here to
-    download the PDF file.</a></p>
-</object>
+```{r}
+#| echo: false
+  downloadthis::download_link(
+  link = "/pdf/1_Introduction.pdf",
+  button_label = " Download Week 1 Slides",
+  button_type = "primary",
+  has_icon = TRUE,
+  icon = "fa fa-file-alt",
+  self_contained = FALSE
+  )
 ```
+
+<br />
+
+## Lecture 1 Outline
+- Introductions
+- Course overview
+- Workflow examples
+- Logistics
+- Course focus
+- Software setup
+
+## GitHub Practice
+
+If you have git, a GitHub account, and the GitHub Desktop Client, let's try to fork a repository to your own account.
+
+- Navigate to [https://github.com/2025-PSYC-259/package_install](https://github.com/2025-PSYC-259/package_install).
+- Click "fork". This will make a fork of the repository under your own account.
+- In your repository, click "Code" and then "Open with GitHub Desktop"
+- This should open up the GitHub Desktop Client. From that application, choose a  non-cloud location on your local machine to store the cloned repository. A good place would be User/Documents/Github.
+- Use GitHub to jump to the directory (or navigate through Finder/Explore) and then open the project.
+- Try changing the package_install.R file and saving the change. You should now see that change registered in GitHub Desktop.
+- If you want, you can commit the change with a message and push it back to the origin. Now it will be saved in your GitHub repository in the cloud.
+
+
+
+
